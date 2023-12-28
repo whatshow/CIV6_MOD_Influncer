@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GameInfo>
+
+
+  <Modifiers>
+    <Row>
+      <ModifierId>TRAIT_EliteSoldier_BONUS_AGAINST_BARBS</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_BARBARIAN_COMBAT</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>TRAIT_EliteSoldier_BONUS_AGAINST_EVERYONE</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_COMBAT_STRENGTH</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>EliteSoldier_ADDITIONAL_MOVEMENT</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_MOVEMENT</ModifierType>
+    </Row>
+
+
+		<Row>
+			<ModifierId>TRAIT_EliteSoldier_MOVE_AFTER_ATTACK</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EliteSoldier_CAPTURE_COMBAT_UNITS_AS_WORKERS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EliteSoldier_CONQUISTADOR_CITY_RELIGION_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EliteSoldier_GARDE_GREAT_GENERAL_POINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EliteSoldier_MAMLUK_HEAL_EVERY_MOVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EliteSoldier_CAPTURE_PRIZE_SHIPS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EliteSoldier_ELITE_GUARD_ADDITIONAL_ATTACK</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>EliteSoldier_ELITE_GUARD_ADDITIONAL_ATTACK</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_NUM_ATTACKS</ModifierType>
+		</Row>
+
+
+<Row>
+<ModifierId>TRAIT_EliteSoldier_SPYGLASS_BONUS_SIGHT</ModifierId>
+<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+</Row>
+<Row>
+<ModifierId>EliteSoldier_SPYGLASS_BONUS_SIGHT</ModifierId>
+<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_SIGHT</ModifierType>
+</Row>
+
+
+  </Modifiers>
+
+
+
+
+
+
+  <!-- 效果参数,必须有在前面设置过效果 -->
+  <ModifierArguments>
+    <Row>
+      <ModifierId>TRAIT_EliteSoldier_BONUS_AGAINST_BARBS</ModifierId>
+      <Name>Amount</Name>
+      <Value>0</Value>
+    </Row>
+    <Row>
+      <ModifierId>TRAIT_EliteSoldier_BONUS_AGAINST_EVERYONE</ModifierId>
+      <Name>Amount</Name>
+      <Value>0</Value>
+    </Row>
+   <Row>
+      <ModifierId>EliteSoldier_ADDITIONAL_MOVEMENT</ModifierId>
+      <Name>Amount</Name>
+      <Value>10</Value>
+    </Row>
+
+		<Row>
+			<ModifierId>TRAIT_EliteSoldier_MOVE_AFTER_ATTACK</ModifierId> <!-- 同上 -->
+			<Name>ModifierId</Name>
+			<Value>COSSACK_MOVE_AND_ATTACK</Value> <!-- 攻击后仍可移动。 -->
+		</Row>
+<Row>
+			<ModifierId>TRAIT_EliteSoldier_CAPTURE_COMBAT_UNITS_AS_WORKERS</ModifierId> <!-- 同上 -->
+			<Name>ModifierId</Name>
+			<Value>CAPTURE_COMBAT_UNITS_AS_WORKERS</Value> <!-- 将敌人转化为工人。 -->
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EliteSoldier_CONQUISTADOR_CITY_RELIGION_COMBAT</ModifierId> <!-- 同上 -->
+			<Name>ModifierId</Name>
+			<Value>CONQUISTADOR_CITY_RELIGION_COMBAT</Value> <!-- 占领城市后强制信仰本国国教。 -->
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EliteSoldier_GARDE_GREAT_GENERAL_POINTS</ModifierId> <!-- 同上 -->
+			<Name>ModifierId</Name>
+			<Value>GARDE_GREAT_GENERAL_POINTS</Value> <!-- 杀死敌人产生大将军点数。 -->
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EliteSoldier_MAMLUK_HEAL_EVERY_MOVE</ModifierId> <!-- 同上 -->
+			<Name>ModifierId</Name>
+			<Value>MAMLUK_HEAL_EVERY_MOVE</Value> <!-- 即使已行动也可恢复生命。 -->
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EliteSoldier_CAPTURE_PRIZE_SHIPS</ModifierId> <!-- 同上 -->
+			<Name>ModifierId</Name>
+			<Value>CAPTURE_PRIZE_SHIPS</Value> <!-- 捕获敌船。 -->
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EliteSoldier_ELITE_GUARD_ADDITIONAL_ATTACK</ModifierId> <!-- 同上 -->
+			<Name>ModifierId</Name>
+			<Value>EliteSoldier_ELITE_GUARD_ADDITIONAL_ATTACK</Value> <!-- 攻击以后可再攻击n次。 -->
+		</Row>
+ 
+ 
+		<Row>
+			<ModifierId>EliteSoldier_ELITE_GUARD_ADDITIONAL_ATTACK</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+
+
+
+
+
+<Row>
+<ModifierId>TRAIT_EliteSoldier_SPYGLASS_BONUS_SIGHT</ModifierId>
+
+<Name>ModifierId</Name>
+<Value>EliteSoldier_SPYGLASS_BONUS_SIGHT</Value>
+
+</Row>
+<Row>
+<ModifierId>EliteSoldier_SPYGLASS_BONUS_SIGHT</ModifierId>
+<Name>Amount</Name>
+<Value>10</Value>
+</Row>
+  </ModifierArguments>
+  <TraitModifiers>
+    <!-- 
+    全部作为中国文明特性TRAIT_CIVILIZATION_DYNASTIC_CYCLE王朝更替的效果
+    如果使用其它文明，用其特性替换TRAIT_CIVILIZATION_DYNASTIC_CYCLE即可
+    -->
+
+    
+    <Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" ModifierId="TRAIT_EliteSoldier_BONUS_AGAINST_BARBS"/><!-- 对蛮族增加攻击力。 -->
+    
+    <Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" ModifierId="TRAIT_EliteSoldier_BONUS_AGAINST_EVERYONE"/><!-- 对所有文明增加攻击力。 -->
+     
+    <Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" ModifierId="EliteSoldier_ADDITIONAL_MOVEMENT"/><!-- 增加移动力。 -->
+
+
+
+   <!-- 攻击后可以移动 -->
+    <Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" ModifierId="TRAIT_EliteSoldier_MOVE_AFTER_ATTACK"/> <!-- 攻击后仍可移动。 -->
+
+ <Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" ModifierId="TRAIT_EliteSoldier_CAPTURE_COMBAT_UNITS_AS_WORKERS"/><!-- 将敌人转化为工人。 -->
+ <Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" ModifierId="TRAIT_EliteSoldier_CONQUISTADOR_CITY_RELIGION_COMBAT"/><!-- 占领城市后强制信仰本国国教。 -->
+ <Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" ModifierId="TRAIT_EliteSoldier_GARDE_GREAT_GENERAL_POINTS"/><!-- 杀死敌人产生大将军点数。 -->
+ <Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" ModifierId="TRAIT_EliteSoldier_MAMLUK_HEAL_EVERY_MOVE"/><!-- 即使已行动也可恢复生命。 -->
+ <Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" ModifierId="TRAIT_EliteSoldier_CAPTURE_PRIZE_SHIPS"/><!-- 捕获敌船。 -->
+<Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" ModifierId="TRAIT_EliteSoldier_ELITE_GUARD_ADDITIONAL_ATTACK"/><!-- 攻击以后可再攻击n次。 -->
+<Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" ModifierId="TRAIT_EliteSoldier_SPYGLASS_BONUS_SIGHT"/> <!--视野加n。 -->
+ 
+
+   
+  </TraitModifiers>
+</GameInfo>

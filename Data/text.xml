@@ -6,7 +6,7 @@
 			<Text>独裁暴政</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_DEMON_SLAVERY_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>中国独裁统治深入人心，同时施加苦难于他人，击败敌人捕获成工人。</Text>
+			<Text>残暴的独裁统治威震四海，击败敌人可以捕获成工人或获得大将军点数。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

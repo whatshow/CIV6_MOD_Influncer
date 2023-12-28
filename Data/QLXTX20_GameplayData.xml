@@ -11,10 +11,18 @@
 			<TraitType>TRAIT_ETERNAL_SLAVERY</TraitType>
 			<ModifierId>TRAIT_SLAVERY_CAPTURE_COMBAT_UNITS_AS_WORKERS</ModifierId>
 		</Row>
+		<Row>
+			<TraitType>TRAIT_ETERNAL_SLAVERY</TraitType>
+			<ModifierId>TRAIT_SLAVERY_GARDE_GREAT_GENERAL_POINTS</ModifierId>
+		</Row>
 	</TraitModifiers>
 	<Modifiers>
 		<Row>
 			<ModifierId>TRAIT_SLAVERY_CAPTURE_COMBAT_UNITS_AS_WORKERS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SLAVERY_GARDE_GREAT_GENERAL_POINTS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
 		</Row>
 	</Modifiers>
@@ -24,6 +32,12 @@
 			<ModifierId>TRAIT_SLAVERY_CAPTURE_COMBAT_UNITS_AS_WORKERS</ModifierId>
 			<Name>ModifierId</Name>
 			<Value>CAPTURE_COMBAT_UNITS_AS_WORKERS</Value>
+		</Row>
+		<!-- 杀死敌人产生大将军点数。 -->
+		<Row>
+			<ModifierId>TRAIT_SLAVERY_GARDE_GREAT_GENERAL_POINTS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GARDE_GREAT_GENERAL_POINTS</Value> 
 		</Row>
 	</ModifierArguments>
 

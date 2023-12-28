@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+  <LocalizedText>
+        <Replace Tag="LOC_LOADING_INFO_LEADER_QIN" Language="zh_Hans_CN"> 
+      <Text>秦始皇，您的精锐部队是您最强大的力量。您统一了中国，世界各地的人都前来仰望万里长城和高耸的奇迹。您的人民辛苦劳作，很快修建了世上最让人震撼的建筑，但愿他们手上永远没有水泡。好好保护您的国民，您将名垂千古。</Text>
+    </Replace>
+    <Replace Tag="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>所有中国部队都具有高级战斗技巧，多次攻击、攻击后移动、攻击后回血、加强视野、加强移动、捕获敌船、捕获工人等</Text>
+    </Replace>
+	</LocalizedText>
+</GameData>
