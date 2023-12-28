@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="QLXTX20" version="1">
+	<Properties>
+		<Name>中国强化</Name>
+		<Teaser>中国具有更多能力</Teaser>
+		<Description>中国具有更多能力</Description>
+		<Authors>Zike Wang</Authors>
+		<ShowInBrowser>AlwaysShow</ShowInBrowser>
+		<EnabledByDefault>1</EnabledByDefault>
+		<EnabledAtStartup>1</EnabledAtStartup>
+	</Properties>
+	<Components>
+		<UpdateDatabase id="QLXTX20_GAMEPLAY_DATA">
+			<Items>
+				<File>Data/QLXTX20_GameplayData.xml</File>
+			</Items>
+		</UpdateDatabase>
+		<LocalizedText id="Elite_Soldier_Text_DATA">
+      		<Items>
+        			<File>Data/text.xml</File>
+      		</Items>
+    		</LocalizedText>
+	</Components>
+	<Files>
+		<File>Data/QLXTX20_GameplayData.xml</File>
+		<File>Data/text.xml</File>
+	</Files>
+</Mod>

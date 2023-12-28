@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+  	<LocalizedText>
+		<Replace Tag="LOC_TRAIT_DEMON_SLAVERY_NAME" Language="zh_Hans_CN">
+			<Text>独裁暴政</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DEMON_SLAVERY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>中国独裁统治深入人心，同时施加苦难于他人，击败敌人捕获成工人。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
