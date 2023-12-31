@@ -12,7 +12,7 @@
 			<Text>愚民奴役</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_FOOLISH_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>城市减少50%科技值。击败敌人可以捕获成工人或获得大将军点数。</Text>
+			<Text>城市减少80%科技值和文化值。</Text>
 		</Replace>
 
 	</LocalizedText>
