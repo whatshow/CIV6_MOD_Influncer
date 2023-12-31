@@ -22,6 +22,10 @@
 			<TraitType>TRAIT_MILITANCY</TraitType>
 			<ModifierId>TRAIT_MILITANCY_CULTURE_KILLS</ModifierId>
 		</Row>
+		<Row>
+			<TraitType>TRAIT_MILITANCY</TraitType>
+			<ModifierId>TRAIT_MILITANCY_FAITH_KILLS</ModifierId>
+		</Row>
 		<!-- 愚民奴役 -->
 		<Row>
 			<TraitType>TRAIT_FOOLISH_SLAVERY</TraitType>
@@ -52,6 +56,10 @@
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_MILITANCY_CULTURE_KILLS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_POST_COMBAT_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MILITANCY_FAITH_KILLS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_POST_COMBAT_YIELD</ModifierType>
 		</Row>
 		<!-- 愚民奴役 -->
@@ -96,6 +104,17 @@
 			<ModifierId>TRAIT_MILITANCY_CULTURE_KILLS</ModifierId>
 			<Name>PercentDefeatedStrength</Name>
 			<Value>10</Value>
+		</Row>
+		<!-- 杀人加信仰 -->
+		<Row>
+			<ModifierId>TRAIT_MILITANCY_FAITH_KILLS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MILITANCY_FAITH_KILLS</ModifierId>
+			<Name>PercentDefeatedStrength</Name>
+			<Value>100</Value>
 		</Row>
 		<!-- 愚民奴役 -->
 		<!-- 减少80%科技 -->
@@ -165,7 +184,7 @@
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_FOOLISH_SLAVERY"/>
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_ZULU_ISIBONGO"/> <!-- 驻军+3忠诚、组团+5，攻城组团（需要市政） -->
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_LEADER_HOLY_ROMAN_EMPEROR"/> <!-- +1军事槽 -->
-		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_LEADER_RELIGION_CITY_STATES"/> <!-- 杀人+信仰；信教城邦使者翻倍 -->
+		
 		
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="FLYING_SQUADRON_TRAIT"/> <!-- +1间谍容量；情报提升1级 -->
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_LEADER_WU_ZETIAN"/> <!-- 进攻性间谍行动效果提升1级。进攻性间谍任务成功时，获得目标城市该回合文化值和科技值的50%。防御战术+1间谍 -->
@@ -178,6 +197,7 @@
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_FOUNDING_FATHERS"/> <!-- 外交转通用；通用+1外交 -->
 
 		<!-- 暂停 -->
+		<!-- <Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_LEADER_RELIGION_CITY_STATES"/>--> <!-- 杀人+信仰；信教城邦使者翻倍 -->
 		<!--<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_LEADER_GIFTS_FOR_TLATOANI"/>--> <!-- 奢饰+1力、额外增益2城 -->
 		<!--<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_EJERCITO_PATRIOTA"/>--> <!-- +1移动力；升级继续操作 -->
 		<!--<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_LEADER_KILLER_OF_CYRUS"/>--> <!-- 打受伤+5力；杀人回血 -->

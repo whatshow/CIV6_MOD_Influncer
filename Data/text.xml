@@ -6,7 +6,7 @@
 			<Text>穷兵黩武</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_MILITANCY_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>战斗胜利后，获得击杀单位战斗力10%的文化。击败敌人可以捕获成工人或获得大将军点数。</Text>
+			<Text>战斗胜利后，获得击杀单位战斗力10%的文化和100%的信仰。击败敌人可以捕获成工人或获得大将军点数。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_FOOLISH_SLAVERY_NAME" Language="zh_Hans_CN">
 			<Text>愚民奴役</Text>

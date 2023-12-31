@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<!-- Leaders -->
+		<Row Type="LEADER_MINOR_CIV_WOLIN" Kind="KIND_LEADER"/>
+		<!-- Traits -->
+		<Row Type="MINOR_CIV_WOLIN_TRAIT" Kind="KIND_TRAIT"/>
+		<!-- Ability -->
+		<Row Type="ABILITY_WOLIN_LAND_UNITS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_WOLIN_NAVAL_UNITS" Kind="KIND_ABILITY"/>
+	</Types>
+	<TypeTags>
+		<Row Type="ABILITY_WOLIN_LAND_UNITS" Tag="CLASS_RECON"/>
+		<Row Type="ABILITY_WOLIN_LAND_UNITS" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_WOLIN_LAND_UNITS" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_WOLIN_LAND_UNITS" Tag="CLASS_SIEGE"/>
+		<Row Type="ABILITY_WOLIN_LAND_UNITS" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_WOLIN_LAND_UNITS" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_WOLIN_LAND_UNITS" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="ABILITY_WOLIN_LAND_UNITS" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_WOLIN_LAND_UNITS" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="ABILITY_WOLIN_LAND_UNITS" Tag="CLASS_LIGHT_CHARIOT"/>
+		<Row Type="ABILITY_WOLIN_NAVAL_UNITS" Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="ABILITY_WOLIN_NAVAL_UNITS" Tag="CLASS_NAVAL_RAIDER"/>
+		<Row Type="ABILITY_WOLIN_NAVAL_UNITS" Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="ABILITY_WOLIN_LAND_UNITS" Tag="CLASS_WARRIOR_MONK"/>
+	</TypeTags>
+	<Leaders>
+		<Row LeaderType="LEADER_MINOR_CIV_WOLIN" Name="LOC_CIVILIZATION_WOLIN_NAME" InheritFrom="LEADER_MINOR_CIV_MILITARISTIC"/>
+	</Leaders>
+	<LeaderTraits>>
+		<Row LeaderType="LEADER_MINOR_CIV_WOLIN" TraitType="MINOR_CIV_WOLIN_TRAIT"/>
+	</LeaderTraits>
+	<Traits>
+		<Row TraitType="MINOR_CIV_WOLIN_TRAIT" Name="LOC_LEADER_TRAIT_WOLIN_NAME" Description="LOC_LEADER_TRAIT_WOLIN_DESCRIPTION"/>
+	</Traits>
+	<TraitModifiers>
+		<Row TraitType="MINOR_CIV_WOLIN_TRAIT" ModifierId="MINOR_CIV_WOLIN_GREAT_GENERAL_INFLUENCE_BONUS"/>
+		<Row TraitType="MINOR_CIV_WOLIN_TRAIT" ModifierId="MINOR_CIV_WOLIN_GREAT_ADMIRAL_INFLUENCE_BONUS"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MINOR_CIV_WOLIN_GREAT_GENERAL_INFLUENCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_WOLIN_GREAT_GENERAL_INFLUENCE_BONUS_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_WOLIN_GREAT_ADMIRAL_INFLUENCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_WOLIN_GREAT_ADMIRAL_INFLUENCE_BONUS_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>WOLIN_GREAT_GENERAL_POINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_UNITS_GREAT_PEOPLE_POINTS_PER_KILL_BY_DEFEATED_STRENGTH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>WOLIN_GREAT_ADMIRAL_POINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_UNITS_GREAT_PEOPLE_POINTS_PER_KILL_BY_DEFEATED_STRENGTH</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MINOR_CIV_WOLIN_GREAT_GENERAL_INFLUENCE_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_WOLIN_GREAT_GENERAL_INFLUENCE_BONUS_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_WOLIN_GREAT_GENERAL_INFLUENCE_BONUS_MODIFIER</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_WOLIN_LAND_UNITS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_WOLIN_GREAT_ADMIRAL_INFLUENCE_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_WOLIN_GREAT_ADMIRAL_INFLUENCE_BONUS_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_WOLIN_GREAT_ADMIRAL_INFLUENCE_BONUS_MODIFIER</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_WOLIN_NAVAL_UNITS</Value>
+		</Row>
+		<Row>
+			<ModifierId>WOLIN_GREAT_GENERAL_POINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_GENERAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>WOLIN_GREAT_GENERAL_POINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>WOLIN_GREAT_ADMIRAL_POINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ADMIRAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>WOLIN_GREAT_ADMIRAL_POINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+	</ModifierArguments>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_WOLIN_LAND_UNITS" Name="LOC_ABILITY_WOLIN_LAND_UNITS_NAME" Description="LOC_ABILITY_WOLIN_LAND_UNITS_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_WOLIN_NAVAL_UNITS" Name="LOC_ABILITY_WOLIN_NAVAL_UNITS_UNITS_NAME" Description="LOC_ABILITY_WOLIN_NAVAL_UNITS_DESCRIPTION" Inactive="true"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_WOLIN_LAND_UNITS</UnitAbilityType>
+			<ModifierId>WOLIN_GREAT_GENERAL_POINTS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_WOLIN_NAVAL_UNITS</UnitAbilityType>
+			<ModifierId>WOLIN_GREAT_ADMIRAL_POINTS</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+</GameInfo>
