@@ -15,5 +15,12 @@
 			<Text>城市减少80%科技值和文化值。建造远古、古典的奇观或区域时，可以使用建造者推进25%的进度。</Text>
 		</Replace>
 
+		<Replace Tag="TRAIT_HEGEMONISM_NAME" Language="zh_Hans_CN">
+			<Text>霸权主义</Text>
+		</Replace>
+		<Replace Tag="TRAIT_HEGEMONISM_NAME_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>给信仰中国创立宗教的城邦派遣使者时，免费额外派遣4个。</Text>
+		</Replace>
+
 	</LocalizedText>
 </GameData>

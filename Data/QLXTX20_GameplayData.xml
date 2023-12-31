@@ -3,10 +3,12 @@
 	<Types>
 		<Row Type="TRAIT_MILITANCY" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_FOOLISH_SLAVERY" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_HEGEMONISM" Kind="KIND_TRAIT"/>
 	</Types>
 	<Traits>
 		<Row TraitType="TRAIT_MILITANCY" Name="LOC_TRAIT_MILITANCY_NAME" Description="LOC_TRAIT_MILITANCY_DESCRIPTION"/>
 		<Row TraitType="TRAIT_FOOLISH_SLAVERY" Name="LOC_TRAIT_FOOLISH_SLAVERY_NAME" Description="LOC_TRAIT_FOOLISH_DESCRIPTION"/>
+		<Row TraitType="TRAIT_HEGEMONISM" Name="TRAIT_HEGEMONISM_NAME" Description="TRAIT_HEGEMONISM_NAME_DESCRIPTION"/>
 	</Traits>
 	<TraitModifiers>
 		<!-- 穷兵黩武 -->
@@ -43,6 +45,11 @@
 			<TraitType>TRAIT_FOOLISH_SLAVERY</TraitType>
 			<ModifierId>TRAIT_FOOLISH_SLAVERY_BUILDER_WONDER_PERCENT</ModifierId>
 		</Row>
+		<!-- 霸权主义 -->
+		<Row>
+			<TraitType>TRAIT_HEGEMONISM</TraitType>
+			<ModifierId>TRAIT_HEGEMONISM_CITY_STATE_TOKEN_SAME_RELIGION</ModifierId>
+		</Row>
 	</TraitModifiers>
 	<Modifiers>
 		<!-- 穷兵黩武 -->
@@ -78,6 +85,11 @@
 		<Row>
 			<ModifierId>TRAIT_FOOLISH_SLAVERY_BUILDER_WONDER_PERCENT</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_UNIT_WONDER_PERCENT</ModifierType>
+		</Row>
+		<!-- 霸权主义 -->
+		<Row>
+			<ModifierId>TRAIT_HEGEMONISM_CITY_STATE_TOKEN_SAME_RELIGION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_DUPLICATE_INFLUENCE_TOKEN_WHEN_SAME_RELIGION</ModifierType>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -151,37 +163,20 @@
 			<Name>Amount</Name>
 			<Value>25</Value>
 		</Row>
+		<!-- 霸权主义 -->
+		<Row>
+			<ModifierId>TRAIT_HEGEMONISM_CITY_STATE_TOKEN_SAME_RELIGION</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
 	</ModifierArguments>
 
-<LeaderTraits>
-		<!--<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_BARBARIAN"/>	-->	
-		<!--<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_HOLY_ROMAN_EMPEROR"/>-->
-		<!--<Row LeaderType="LEADER_QIN" TraitType="FLYING_SQUADRON_TRAIT"/>	-->
-		<!--<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_MEDITERRANEAN"/>-->
-		<!--<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_SATYAGRAHA"/>	-->
-		<!--<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_ADVENTURES_ENKIDU"/>-->
-		<!--<Row LeaderType="LEADER_QIN" TraitType="CULTURE_KILLS_TRAIT"/>-->
-		<!--<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_MELEE_COASTAL_RAIDS"/>-->
-		<!--<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_UNIT_NORWEGIAN_LONGSHIP"/>-->
-		<!--<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_DIVINE_WIND"/>			-->
-		<!--<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_MAGNANIMOUS"/>-->
-		<!--<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_SURROUNDED_BY_GLORY"/>	-->	
-		<!--<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_GRAND_EMBASSY"/>	-->
-		<!--<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_EL_ESCORIAL"/>		-->
-		<!--<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_RIGHTEOUSNESS_OF_FAITH"/>	-->
-		<!--<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_KILLER_OF_CYRUS"/>-->
-		<!--<Row LeaderType="LEADER_QIN" TraitType="TRAJANS_COLUMN_TRAIT"/>-->
-		<!--<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_EXPANSIONIST"/>-->
-		<!--<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_ROOSEVELT_COROLLARY"/>-->
-		<!--<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_UNIT_AMERICAN_ROUGH_RIDER"/>	-->
-		<!--<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_PAX_BRITANNICA"/>-->
-		<!--<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_UNIT_ENGLISH_REDCOAT"/>-->	
-		<!--<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_GIFTS_FOR_TLATOANI"/>-->
-		<!--<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_RELIGIOUS_CONVERT"/>-->
-
-		<!-- 武秦 -->
+	<LeaderTraits>
+		<!-- 秦始皇（大一统） -->
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_MILITANCY"/>
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_FOOLISH_SLAVERY"/>
+		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_HEGEMONISM"/>
+		
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_ZULU_ISIBONGO"/> <!-- 驻军+3忠诚、组团+5，攻城组团（需要市政） -->
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_LEADER_HOLY_ROMAN_EMPEROR"/> <!-- +1军事槽 -->
 		
@@ -207,6 +202,5 @@
 		<!--<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_NKISI"/>--> <!-- +4外用槽位，增加巨作效果 -->
 		<!--<Row LeaderType="LEADER_QIN_ALT" TraitType="FIRST_EMPEROR_TRAIT"/>-->  <!-- 文秦技能 -->
 		<!--<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_LEADER_EXALTED_GODDESS"/>--> <!-- 信仰买海军、宗教上下海无移动力消耗、市中心相邻湖泊海岸+2信仰 -->
-
-</LeaderTraits>
+	</LeaderTraits>
 </GameInfo>
