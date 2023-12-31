@@ -1,41 +1,43 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <GameInfo>
 	<Types>
-		<Row Type="TRAIT_ETERNAL_SLAVERY" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_MILITANCY" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_FOOLISH_SLAVERY" Kind="KIND_TRAIT"/>
 	</Types>
 	<Traits>
-		<Row TraitType="TRAIT_ETERNAL_SLAVERY" Name="LOC_TRAIT_DEMON_SLAVERY_NAME" Description="LOC_TRAIT_DEMON_SLAVERY_DESCRIPTION"/>
+		<Row TraitType="TRAIT_MILITANCY" Name="LOC_TRAIT_MILITANCY_NAME" Description="LOC_TRAIT_MILITANCY_DESCRIPTION"/>
+		<Row TraitType="TRAIT_FOOLISH_SLAVERY" Name="LOC_TRAIT_FOOLISH_SLAVERY_NAME" Description="LOC_TRAIT_FOOLISH_DESCRIPTION"/>
 	</Traits>
 	<TraitModifiers>
 		<Row>
-			<TraitType>TRAIT_ETERNAL_SLAVERY</TraitType>
-			<ModifierId>TRAIT_SLAVERY_CAPTURE_COMBAT_UNITS_AS_WORKERS</ModifierId>
+			<TraitType>TRAIT_MILITANCY</TraitType>
+			<ModifierId>TRAIT_MILITANCY_CAPTURE_COMBAT_UNITS_AS_WORKERS</ModifierId>
 		</Row>
 		<Row>
-			<TraitType>TRAIT_ETERNAL_SLAVERY</TraitType>
-			<ModifierId>TRAIT_SLAVERY_GARDE_GREAT_GENERAL_POINTS</ModifierId>
+			<TraitType>TRAIT_MILITANCY</TraitType>
+			<ModifierId>TRAIT_MILITANCY_GARDE_GREAT_GENERAL_POINTS</ModifierId>
 		</Row>
 	</TraitModifiers>
 	<Modifiers>
 		<Row>
-			<ModifierId>TRAIT_SLAVERY_CAPTURE_COMBAT_UNITS_AS_WORKERS</ModifierId>
+			<ModifierId>TRAIT_MILITANCY_CAPTURE_COMBAT_UNITS_AS_WORKERS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_SLAVERY_GARDE_GREAT_GENERAL_POINTS</ModifierId>
+			<ModifierId>TRAIT_MILITANCY_GARDE_GREAT_GENERAL_POINTS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
 		<!-- 将敌人转化为工人 -->
 		<Row>
-			<ModifierId>TRAIT_SLAVERY_CAPTURE_COMBAT_UNITS_AS_WORKERS</ModifierId>
+			<ModifierId>TRAIT_MILITANCY_CAPTURE_COMBAT_UNITS_AS_WORKERS</ModifierId>
 			<Name>ModifierId</Name>
 			<Value>CAPTURE_COMBAT_UNITS_AS_WORKERS</Value>
 		</Row>
 		<!-- 杀死敌人产生大将军点数。 -->
 		<Row>
-			<ModifierId>TRAIT_SLAVERY_GARDE_GREAT_GENERAL_POINTS</ModifierId>
+			<ModifierId>TRAIT_MILITANCY_GARDE_GREAT_GENERAL_POINTS</ModifierId>
 			<Name>ModifierId</Name>
 			<Value>GARDE_GREAT_GENERAL_POINTS</Value> 
 		</Row>
@@ -68,7 +70,7 @@
 		<!--<Row LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_RELIGIOUS_CONVERT"/>-->
 
 		<!-- 武秦 -->
-		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_ETERNAL_SLAVERY"/>
+		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_MILITANCY"/>
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_ZULU_ISIBONGO"/> <!-- 驻军+3忠诚、组团+5，攻城组团（需要市政） -->
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_LEADER_HOLY_ROMAN_EMPEROR"/> <!-- +1军事槽 -->
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_LEADER_RELIGION_CITY_STATES"/> <!-- 杀人+信仰；信教城邦使者翻倍 -->
