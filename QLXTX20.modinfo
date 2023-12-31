@@ -10,28 +10,27 @@
 		<EnabledAtStartup>1</EnabledAtStartup>
 		<CompatibleVersions>1.2,2.0</CompatibleVersions>
 	</Properties>
-	<Components>
+	<InGameActions>
 		<UpdateDatabase id="QLXTX20_GAMEPLAY_DATA">
-			<Items>
-				<File>Data/QLXTX20_GameplayData.xml</File>
-			</Items>
+			<File>Data/QLXTX20_GameplayData.xml</File>
 		</UpdateDatabase>
-		<LocalizedText id="Elite_Soldier_Text_DATA">
-      		<Items>
-        			<File>Data/text.xml</File>
-      		</Items>
-    	</LocalizedText>
-	</Components>
+		<UpdateText id="Elite_Soldier_Text_DATA">
+      		<File>Text/text.xml</File>
+    	</UpdateText>
+	</InGameActions>
 	<!--
 	<FrontEndActions>
-		<UpdateText id="Enhanced_China_FrontEndAction">			
-			<File Priority="1">Text/en_US/RulersOfChina_ConfigText.xml</File>
-			<File>Text/SettingsText_Translations.xml</File>					
+		<UpdateDatabase id="Enhanced_China_ConfigData">
+			<File>Data/ConfigData.xml</File>
+		</UpdateDatabase>
+		<UpdateText id="Enhanced_China_Text">			
+			<File Priority="1">Text/text.xml</File>			
 		</UpdateText>
 	</FrontEndActions>
 	-->
 	<Files>
 		<File>Data/QLXTX20_GameplayData.xml</File>
-		<File>Data/text.xml</File>
+		<File>Data/ConfigData.xml</File>
+		<File>Text/text.xml</File>
 	</Files>
 </Mod>

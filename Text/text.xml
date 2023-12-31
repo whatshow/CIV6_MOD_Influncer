@@ -22,5 +22,21 @@
 			<Text>给信仰中国创立宗教的城邦派遣使者时，免费额外派遣4个。</Text>
 		</Replace>
 
+
+		<Replace Tag="LOC_ENHANCED_TRAITS_LEADER_QIN_ALT_NAME" Language="zh_Hans_CN">
+      		<Text>穷兵黩武、愚民奴役、霸权主义、三十六计</Text>
+    	</Replace>
+
+		<Replace Tag="LOC_ENHANCED_TRAITS_LEADER_QIN_ALT_DESCRIPTION" Language="zh_Hans_CN">
+      		<Text>
+			战斗胜利后，获得击杀单位战斗力10%的文化和100%的信仰。击败敌人可以捕获成工人或获得大将军点数。城市减少80%科技值和文化值。
+			建造远古、古典的奇观或区域时，可以使用建造者推进25%的进度。
+			给信仰中国创立宗教的城邦派遣使者时，免费额外派遣4个。
+			近战单位获得“蛮族归顺”操作。此操作能将蛮族单位转化为你的单位，但会移除近战单位。
+			</Text>
+    	</Replace>
+
+
+		
 	</LocalizedText>
 </GameData>

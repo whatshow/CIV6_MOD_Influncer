@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameInfo>
+	<Players>
+    <!-- Base Support -->
+		<Row CivilizationType="CIVILIZATION_CHINA" LeaderType="LEADER_QIN_ALT" CivilizationName="LOC_CIVILIZATION_CHINA_NAME" CivilizationIcon="ICON_CIVILIZATION_CHINA" LeaderName="LOC_LEADER_QIN_ALT_NAME" LeaderIcon="ICON_LEADER_QIN_ALT" CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_NAME" CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_DESCRIPTION" CivilizationAbilityIcon="ICON_CIVILIZATION_CHINA" LeaderAbilityName="LOC_ENHANCED_TRAITS_LEADER_QIN_ALT_NAME" LeaderAbilityDescription="LOC_TRAIT_LEADER_QIN_ALT_DESCRIPTION" LeaderAbilityIcon="ICON_LEADER_QIN_ALT"/>
+		<!-- Expansion 1 Support -->
+		<Row Domain="Players:Expansion1_Players" CivilizationType="CIVILIZATION_CHINA" LeaderType="LEADER_QIN_ALT" CivilizationName="LOC_CIVILIZATION_CHINA_NAME" CivilizationIcon="ICON_CIVILIZATION_CHINA" LeaderName="LOC_LEADER_QIN_ALT_NAME" LeaderIcon="ICON_LEADER_QIN_ALT" CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_NAME" CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_EXPANSION1_DESCRIPTION" CivilizationAbilityIcon="ICON_CIVILIZATION_CHINA" LeaderAbilityName="LOC_ENHANCED_TRAITS_LEADER_QIN_ALT_NAME" LeaderAbilityDescription="LOC_TRAIT_LEADER_QIN_ALT_DESCRIPTION" LeaderAbilityIcon="ICON_LEADER_QIN_ALT"/>
+		<!-- Expansion 2 Support -->
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_CHINA" LeaderType="LEADER_QIN_ALT" CivilizationName="LOC_CIVILIZATION_CHINA_NAME" CivilizationIcon="ICON_CIVILIZATION_CHINA" LeaderName="LOC_LEADER_QIN_ALT_NAME" LeaderIcon="ICON_LEADER_QIN_ALT" CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_NAME" CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_EXPANSION2_DESCRIPTION" CivilizationAbilityIcon="ICON_CIVILIZATION_CHINA" LeaderAbilityName="LOC_ENHANCED_TRAITS_LEADER_QIN_ALT_NAME" LeaderAbilityDescription="LOC_TRAIT_LEADER_QIN_ALT_DESCRIPTION" LeaderAbilityIcon="ICON_LEADER_QIN_ALT"/>
+  </Players>
+</GameInfo>
