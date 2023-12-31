@@ -18,6 +18,10 @@
 			<TraitType>TRAIT_MILITANCY</TraitType>
 			<ModifierId>TRAIT_MILITANCY_GARDE_GREAT_GENERAL_POINTS</ModifierId>
 		</Row>
+		<Row>
+			<TraitType>TRAIT_MILITANCY</TraitType>
+			<ModifierId>TRAIT_MILITANCY_CULTURE_KILLS</ModifierId>
+		</Row>
 		<!-- 愚民奴役 -->
 		<Row>
 			<TraitType>TRAIT_FOOLISH_SLAVERY</TraitType>
@@ -37,6 +41,10 @@
 		<Row>
 			<ModifierId>TRAIT_MILITANCY_GARDE_GREAT_GENERAL_POINTS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MILITANCY_CULTURE_KILLS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_POST_COMBAT_YIELD</ModifierType>
 		</Row>
 		<!-- 愚民奴役 -->
 		<Row>
@@ -61,6 +69,17 @@
 			<ModifierId>TRAIT_MILITANCY_GARDE_GREAT_GENERAL_POINTS</ModifierId>
 			<Name>ModifierId</Name>
 			<Value>GARDE_GREAT_GENERAL_POINTS</Value> 
+		</Row>
+		<!-- 杀人加文化 -->
+		<Row>
+			<ModifierId>TRAIT_MILITANCY_CULTURE_KILLS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MILITANCY_CULTURE_KILLS</ModifierId>
+			<Name>PercentDefeatedStrength</Name>
+			<Value>10</Value>
 		</Row>
 		<!-- 愚民奴役 -->
 		<!-- 减少80%科技 -->
