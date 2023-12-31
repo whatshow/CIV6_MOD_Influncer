@@ -20,8 +20,16 @@
       		<Items>
         			<File>Data/text.xml</File>
       		</Items>
-    		</LocalizedText>
+    	</LocalizedText>
 	</Components>
+	<!--
+	<FrontEndActions>
+		<UpdateText id="Enhanced_China_FrontEndAction">			
+			<File Priority="1">Text/en_US/RulersOfChina_ConfigText.xml</File>
+			<File>Text/SettingsText_Translations.xml</File>					
+		</UpdateText>
+	</FrontEndActions>
+	-->
 	<Files>
 		<File>Data/QLXTX20_GameplayData.xml</File>
 		<File>Data/text.xml</File>
