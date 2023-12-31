@@ -31,6 +31,10 @@
 			<TraitType>TRAIT_FOOLISH_SLAVERY</TraitType>
 			<ModifierId>TRAIT_FOOLISH_SLAVERY_DECREASE_CULTURE</ModifierId>
 		</Row>
+		<Row>
+			<TraitType>TRAIT_FOOLISH_SLAVERY</TraitType>
+			<ModifierId>TRAIT_FOOLISH_SLAVERY_BUILDER_DISTRICT_PERCENT</ModifierId>
+		</Row>
 	</TraitModifiers>
 	<Modifiers>
 		<!-- 穷兵黩武 -->
@@ -54,6 +58,10 @@
 		<Row>
 			<ModifierId>TRAIT_FOOLISH_SLAVERY_DECREASE_CULTURE</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FOOLISH_SLAVERY_BUILDER_DISTRICT_PERCENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_UNIT_DISTRICT_PERCENT</ModifierType>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -104,6 +112,11 @@
 			<Name>Amount</Name>
 			<Value>-80</Value>
 		</Row>
+		<Row>
+			<ModifierId>TRAIT_FOOLISH_SLAVERY_BUILDER_DISTRICT_PERCENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
 	</ModifierArguments>
 
 <LeaderTraits>
@@ -144,9 +157,7 @@
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_MONGOLIAN_ORTOO"/> <!-- 贸易路线给驿站；驿站+1情报等级；情报等级加力翻倍 -->
 		
 		<!-- 种田 -->
-		<Row LeaderType="LEADER_QIN_ALT" TraitType="FIRST_EMPEROR_TRAIT"/> <!-- 文秦技能 -->
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_IMPERIAL_FREE_CITIES"/> <!-- +1额外区域 -->
-		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_LEGEND_FIVE_SUNS"/> <!-- 工人+20%区域进度 -->
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_LEADER_MAGNANIMOUS"/> <!-- 购买伟人返还20%点数 -->
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_PLATOS_REPUBLIC"/> <!-- +1通用槽位 -->
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_FOUNDING_FATHERS"/> <!-- 外交转通用；通用+1外交 -->
@@ -160,6 +171,8 @@
 		<!--<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_LEADER_GENGHIS_KHAN_ABILITY"/>--> <!-- 骑兵+3力；击败捕获 -->
 		<!--<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_LEADER_DIVINE_WIND"/>--> <!-- 海岸附近+5力；军营、圣地、剧院广场减半；单位不受飓风伤害；国境内飓风伤害对敌+100% -->
 		<!--<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_NKISI"/>--> <!-- +4外用槽位，增加巨作效果 -->
+		<!--<Row LeaderType="LEADER_QIN_ALT" TraitType="FIRST_EMPEROR_TRAIT"/>-->  <!-- 文秦技能 -->
+		<!--<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_LEGEND_FIVE_SUNS"/>-->  <!-- 工人+20%区域进度 -->
 		<!--<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_LEADER_EXALTED_GODDESS"/>--> <!-- 信仰买海军、宗教上下海无移动力消耗、市中心相邻湖泊海岸+2信仰 -->
 
 </LeaderTraits>

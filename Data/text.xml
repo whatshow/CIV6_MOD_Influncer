@@ -12,7 +12,7 @@
 			<Text>愚民奴役</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_FOOLISH_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>城市减少80%科技值和文化值。</Text>
+			<Text>城市减少80%科技值和文化值。建造区域时，可以使用建造者推进25%的进度。</Text>
 		</Replace>
 
 	</LocalizedText>
