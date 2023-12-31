@@ -35,6 +35,10 @@
 			<TraitType>TRAIT_FOOLISH_SLAVERY</TraitType>
 			<ModifierId>TRAIT_FOOLISH_SLAVERY_BUILDER_DISTRICT_PERCENT</ModifierId>
 		</Row>
+		<Row>
+			<TraitType>TRAIT_FOOLISH_SLAVERY</TraitType>
+			<ModifierId>TRAIT_FOOLISH_SLAVERY_BUILDER_WONDER_PERCENT</ModifierId>
+		</Row>
 	</TraitModifiers>
 	<Modifiers>
 		<!-- 穷兵黩武 -->
@@ -62,6 +66,10 @@
 		<Row>
 			<ModifierId>TRAIT_FOOLISH_SLAVERY_BUILDER_DISTRICT_PERCENT</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_UNIT_DISTRICT_PERCENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FOOLISH_SLAVERY_BUILDER_WONDER_PERCENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_UNIT_WONDER_PERCENT</ModifierType>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -112,8 +120,15 @@
 			<Name>Amount</Name>
 			<Value>-80</Value>
 		</Row>
+		<!-- 工人推进区域25%进度 -->
 		<Row>
 			<ModifierId>TRAIT_FOOLISH_SLAVERY_BUILDER_DISTRICT_PERCENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<!-- 工人推进远古、古典奇观25%进度 -->
+		<Row>
+			<ModifierId>TRAIT_FOOLISH_SLAVERY_BUILDER_WONDER_PERCENT</ModifierId>
 			<Name>Amount</Name>
 			<Value>25</Value>
 		</Row>
@@ -167,12 +182,10 @@
 		<!--<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_EJERCITO_PATRIOTA"/>--> <!-- +1移动力；升级继续操作 -->
 		<!--<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_LEADER_KILLER_OF_CYRUS"/>--> <!-- 打受伤+5力；杀人回血 -->
 		<!--<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_BYZANTIUM"/>--> <!-- 皈依1圣城+3力；杀人传教；圣地+1大预言家 -->
-		<!--<Row LeaderType="LEADER_QIN_ALT" TraitType="CULTURE_KILLS_TRAIT"/>--> <!-- 每个军事槽+1力，杀人加文化 -->
 		<!--<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_LEADER_GENGHIS_KHAN_ABILITY"/>--> <!-- 骑兵+3力；击败捕获 -->
 		<!--<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_LEADER_DIVINE_WIND"/>--> <!-- 海岸附近+5力；军营、圣地、剧院广场减半；单位不受飓风伤害；国境内飓风伤害对敌+100% -->
 		<!--<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_NKISI"/>--> <!-- +4外用槽位，增加巨作效果 -->
 		<!--<Row LeaderType="LEADER_QIN_ALT" TraitType="FIRST_EMPEROR_TRAIT"/>-->  <!-- 文秦技能 -->
-		<!--<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_LEGEND_FIVE_SUNS"/>-->  <!-- 工人+20%区域进度 -->
 		<!--<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_LEADER_EXALTED_GODDESS"/>--> <!-- 信仰买海军、宗教上下海无移动力消耗、市中心相邻湖泊海岸+2信仰 -->
 
 </LeaderTraits>
