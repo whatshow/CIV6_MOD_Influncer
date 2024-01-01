@@ -10,7 +10,11 @@ This mode is to enhance China in Civ6
 * 部落礼赞： 驻军+3忠诚、组团+5，攻城组团（需要市政）
 *  神圣罗马帝国：+1军事槽
 * +1间谍容量；情报提升1级
-* 进攻性间谍行动效果提升1级。进攻性间谍任务成功时，获得目标城市该回合文化值和科技值的50%。防御战术+1间谍
 * 贸易路线给驿站；驿站+1情报等级；情报等级加力翻倍
 * 宽宏大量：购买伟人返还20%点数
 * 柏拉图的理想国：+1通用槽位
+
+
+
+		<Row TraitType="FLYING_SQUADRON_TRAIT" ModifierId="UNIQUE_LEADER_ADD_SPY_CAPACITY"/>
+		<Row TraitType="FLYING_SQUADRON_TRAIT" ModifierId="UNIQUE_LEADER_ADD_SPY_UNIT"/>

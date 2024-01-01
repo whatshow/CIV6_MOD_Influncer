@@ -259,8 +259,13 @@
             <RequirementSetId>TRAIT_MILITANCY_REQ_NAVY</RequirementSetId>
             <RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
         </Row>
+		<Row>
+            <RequirementSetId>TRAIT_HEGEMONISM_SPY_REQ</RequirementSetId>
+            <RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+        </Row>
 	</RequirementSets>
 	<RequirementSetRequirements>
+		<!-- land units -->
 		<Row>
             <RequirementSetId>TRAIT_MILITANCY_REQ_LAND</RequirementSetId>
 			<RequirementId>TRAIT_MILITANCY_REQ_LAND_CLASS_RECON</RequirementId>
@@ -305,6 +310,7 @@
             <RequirementSetId>TRAIT_MILITANCY_REQ_LAND</RequirementSetId>
             <RequirementId>TRAIT_MILITANCY_REQ_LAND_WARRIOR_MONK</RequirementId>
         </Row>
+		<!-- navy units -->
 		<Row>
             <RequirementSetId>TRAIT_MILITANCY_REQ_NAVY</RequirementSetId>
             <RequirementId>TRAIT_MILITANCY_REQ_NAVY_RANGED</RequirementId>
@@ -316,6 +322,11 @@
 		<Row>
             <RequirementSetId>TRAIT_MILITANCY_REQ_NAVY</RequirementSetId>
             <RequirementId>TRAIT_MILITANCY_REQ_NAVY_MELEE</RequirementId>
+        </Row>
+		<!-- Tech -->
+		<Row>
+            <RequirementSetId>TRAIT_HEGEMONISM_SPY_REQ</RequirementSetId>
+            <RequirementId>TRAIT_HEGEMONISM_SPY_REQ_TECH_CURRENCY</RequirementId>
         </Row>
 	</RequirementSetRequirements>
 	<Requirements>
