@@ -22,6 +22,10 @@
 		</Row>
 		<Row>
 			<TraitType>TRAIT_MILITANCY</TraitType>
+			<ModifierId>TRAIT_MILITANCY_GREAT_ADMIRAL_POINTS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_MILITANCY</TraitType>
 			<ModifierId>TRAIT_MILITANCY_CULTURE_KILLS</ModifierId>
 		</Row>
 		<Row>
@@ -65,6 +69,11 @@
 		<Row>
 			<ModifierId>TRAIT_MILITANCY_GARDE_GREAT_GENERAL_POINTS_MODIFIER</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_GREAT_PEOPLE_POINTS_PER_KILL</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MILITANCY_GREAT_ADMIRAL_POINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>TRAIT_MILITANCY_REQ_NAVY</SubjectRequirementSetId>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_MILITANCY_GREAT_ADMIRAL_POINTS_MODIFIER</ModifierId>
@@ -126,6 +135,11 @@
 			<Value>GREAT_PERSON_CLASS_GENERAL</Value>
 		</Row>
 		<!-- 杀死敌人产生海军统帅点数。 -->
+		<Row>
+			<ModifierId>TRAIT_MILITANCY_GREAT_ADMIRAL_POINTS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>TRAIT_MILITANCY_GREAT_ADMIRAL_POINTS_MODIFIER</Value> 
+		</Row>
 		<Row>
 			<ModifierId>TRAIT_MILITANCY_GREAT_ADMIRAL_POINTS_MODIFIER</ModifierId>
 			<Name>Amount</Name>
