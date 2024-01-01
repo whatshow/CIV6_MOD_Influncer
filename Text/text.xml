@@ -6,7 +6,7 @@
 			<Text>穷兵黩武</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_MILITANCY_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>战斗胜利后，可以俘获（非蛮族）敌人成工人，或坑杀敌人获得击杀单位战斗力10%的文化、100%的信仰、20点大将军或海军统帅点数。额外的军事政策槽位。</Text>
+			<Text>战斗胜利后，可以俘获（非蛮族）敌人成工人，或坑杀敌人获得击杀单位战斗力10%的文化、100%的信仰、20点大将军或海军统帅点数。每种政体具有额外的军事政策槽位和通配符槽位。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_FOOLISH_SLAVERY_NAME" Language="zh_Hans_CN">
 			<Text>愚民奴役</Text>

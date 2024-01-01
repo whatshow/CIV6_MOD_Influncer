@@ -38,6 +38,10 @@
 			<TraitType>TRAIT_MILITANCY</TraitType>
 			<ModifierId>TRAIT_MILITANCY_SLOT_MILITARY</ModifierId>
 		</Row>
+		<Row>
+			<TraitType>TRAIT_MILITANCY</TraitType>
+			<ModifierId>TRAIT_MILITANCY_SLOT_WILDCARD</ModifierId>
+		</Row>
 		<!-- 愚民奴役 -->
 		<Row>
 			<TraitType>TRAIT_FOOLISH_SLAVERY</TraitType>
@@ -118,6 +122,10 @@
 			<ModifierId>TRAIT_MILITANCY_SLOT_MILITARY</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
 		</Row>
+		<Row>
+			<ModifierId>TRAIT_MILITANCY_SLOT_WILDCARD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
+		</Row>
 		<!-- 愚民奴役 -->
 		<Row>
 			<ModifierId>TRAIT_FOOLISH_SLAVERY_DECREASE_SCIENCE</ModifierId>
@@ -176,7 +184,7 @@
 			<Name>ModifierId</Name>
 			<Value>CAPTURE_COMBAT_UNITS_AS_WORKERS</Value>
 		</Row>
-		<!-- 杀死敌人产生大将军点数。 -->
+		<!-- 杀死敌人产生大将军点数 -->
 		<Row>
 			<ModifierId>TRAIT_MILITANCY_GARDE_GREAT_GENERAL_POINTS</ModifierId>
 			<Name>ModifierId</Name>
@@ -235,6 +243,12 @@
 			<ModifierId>TRAIT_MILITANCY_SLOT_MILITARY</ModifierId>
 			<Name>GovernmentSlotType</Name>
 			<Value>SLOT_MILITARY</Value>
+		</Row>
+		<!-- +1通用槽位 -->
+		<Row>
+			<ModifierId>TRAIT_MILITANCY_SLOT_WILDCARD</ModifierId>
+			<Name>GovernmentSlotType</Name>
+			<Value>SLOT_WILDCARD</Value>
 		</Row>
 		<!-- 愚民奴役 -->
 		<!-- 减少80%科技 -->
@@ -565,9 +579,6 @@
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_ZULU_ISIBONGO"/> <!-- 驻军+3忠诚、组团+5，攻城组团（需要市政） -->
 		
 		<!-- 种田 -->
-		
-		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_LEADER_MAGNANIMOUS"/> <!-- 购买伟人返还20%点数 -->
-		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_PLATOS_REPUBLIC"/> <!-- +1通用槽位 -->
 
 
 		<!-- 暂停 -->
