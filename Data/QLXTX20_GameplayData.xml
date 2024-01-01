@@ -36,6 +36,10 @@
 		</Row>
 		<Row>
 			<TraitType>TRAIT_MILITANCY</TraitType>
+			<ModifierId>TRAIT_MILITANCY_GOLD_KILLS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_MILITANCY</TraitType>
 			<ModifierId>TRAIT_MILITANCY_CULTURE_KILLS</ModifierId>
 		</Row>
 		<Row>
@@ -145,6 +149,10 @@
 		<Row>
 			<ModifierId>TRAIT_MILITANCY_GREAT_ADMIRAL_POINTS_MODIFIER</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_GREAT_PEOPLE_POINTS_PER_KILL</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MILITANCY_GOLD_KILLS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_POST_COMBAT_YIELD</ModifierType>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_MILITANCY_CULTURE_KILLS</ModifierId>
@@ -273,6 +281,17 @@
 			<ModifierId>TRAIT_MILITANCY_GREAT_ADMIRAL_POINTS_MODIFIER</ModifierId>
 			<Name>GreatPersonClassType</Name>
 			<Value>GREAT_PERSON_CLASS_ADMIRAL</Value>
+		</Row>
+		<!-- 杀人加金币 -->
+		<Row>
+			<ModifierId>TRAIT_MILITANCY_GOLD_KILLS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MILITANCY_GOLD_KILLS</ModifierId>
+			<Name>PercentDefeatedStrength</Name>
+			<Value>50</Value>
 		</Row>
 		<!-- 杀人加文化 -->
 		<Row>
