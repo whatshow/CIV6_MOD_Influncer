@@ -3,7 +3,7 @@
 	<Properties>
 		<Name>中国强化</Name>
 		<Teaser>中国具有更多能力</Teaser>
-		<Description>秦始皇（大一统）获得额外能力：穷兵黩武、愚民奴役、霸权主义。</Description>
+		<Description>秦始皇（大一统）获得额外能力：穷兵黩武、愚民奴役、大兴土木、霸权主义。</Description>
 		<Authors>Zike Wang</Authors>
 		<ShowInBrowser>AlwaysShow</ShowInBrowser>
 		<EnabledByDefault>1</EnabledByDefault>

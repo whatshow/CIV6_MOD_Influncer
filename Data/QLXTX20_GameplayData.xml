@@ -3,11 +3,13 @@
 	<Types>
 		<Row Type="TRAIT_MILITANCY" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_FOOLISH_SLAVERY" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILENG" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_HEGEMONISM" Kind="KIND_TRAIT"/>
 	</Types>
 	<Traits>
 		<Row TraitType="TRAIT_MILITANCY" Name="LOC_TRAIT_MILITANCY_NAME" Description="LOC_TRAIT_MILITANCY_DESCRIPTION"/>
 		<Row TraitType="TRAIT_FOOLISH_SLAVERY" Name="LOC_TRAIT_FOOLISH_SLAVERY_NAME" Description="LOC_TRAIT_FOOLISH_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILENG" Name="LOC_TRAIT_CIVILENG_NAME" Description="LOC_TRAIT_CIVILENG_DESCRIPTION"/>
 		<Row TraitType="TRAIT_HEGEMONISM" Name="TRAIT_HEGEMONISM_NAME" Description="TRAIT_HEGEMONISM_NAME_DESCRIPTION"/>
 	</Traits>
 	<TraitModifiers>
@@ -48,6 +50,11 @@
 		<Row>
 			<TraitType>TRAIT_FOOLISH_SLAVERY</TraitType>
 			<ModifierId>TRAIT_FOOLISH_SLAVERY_BUILDER_WONDER_PERCENT</ModifierId>
+		</Row>
+		<!-- 大兴土木 -->
+		<Row>
+			<TraitType>TRAIT_CIVILENG</TraitType>
+			<ModifierId>TRAIT_CIVILENG_EXTRA_AREA</ModifierId>
 		</Row>
 		<!-- 霸权主义 -->
 		<Row>
@@ -103,6 +110,11 @@
 		<Row>
 			<ModifierId>TRAIT_FOOLISH_SLAVERY_BUILDER_WONDER_PERCENT</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_UNIT_WONDER_PERCENT</ModifierType>
+		</Row>
+		<!-- 大兴土木 -->
+		<Row>
+			<ModifierId>TRAIT_CIVILENG_EXTRA_AREA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_EXTRA_DISTRICT</ModifierType>
 		</Row>
 		<!-- 霸权主义 -->
 		<Row>
@@ -183,6 +195,12 @@
 			<ModifierId>TRAIT_FOOLISH_SLAVERY_DECREASE_SCIENCE</ModifierId>
 			<Name>Amount</Name>
 			<Value>-80</Value>
+		</Row>
+		<!-- 大兴土木 -->
+		<Row>
+			<ModifierId>TRAIT_CIVILENG_EXTRA_AREA</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
 		</Row>
 		<!-- 减少80%文化 -->
 		<Row>
@@ -417,6 +435,7 @@
 		<!-- 秦始皇（大一统） -->
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_MILITANCY"/>
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_FOOLISH_SLAVERY"/>
+		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILENG"/>
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_HEGEMONISM"/>
 		
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_ZULU_ISIBONGO"/> <!-- 驻军+3忠诚、组团+5，攻城组团（需要市政） -->
@@ -428,12 +447,13 @@
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_MONGOLIAN_ORTOO"/> <!-- 贸易路线给驿站；驿站+1情报等级；情报等级加力翻倍 -->
 		
 		<!-- 种田 -->
-		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_IMPERIAL_FREE_CITIES"/> <!-- +1额外区域 -->
+		
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_LEADER_MAGNANIMOUS"/> <!-- 购买伟人返还20%点数 -->
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_PLATOS_REPUBLIC"/> <!-- +1通用槽位 -->
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_FOUNDING_FATHERS"/> <!-- 外交转通用；通用+1外交 -->
 
 		<!-- 暂停 -->
+		<!-- <Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_IMPERIAL_FREE_CITIES"/> <!-- +1额外区域 -->-->
 		<!-- <Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_LEADER_RELIGION_CITY_STATES"/>--> <!-- 杀人+信仰；信教城邦使者翻倍 -->
 		<!--<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_LEADER_GIFTS_FOR_TLATOANI"/>--> <!-- 奢饰+1力、额外增益2城 -->
 		<!--<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_EJERCITO_PATRIOTA"/>--> <!-- +1移动力；升级继续操作 -->
