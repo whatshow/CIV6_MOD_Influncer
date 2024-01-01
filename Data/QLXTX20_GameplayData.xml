@@ -61,6 +61,10 @@
 			<TraitType>TRAIT_HEGEMONISM</TraitType>
 			<ModifierId>TRAIT_HEGEMONISM_CITY_STATE_TOKEN_SAME_RELIGION</ModifierId>
 		</Row>
+		<Row>
+			<TraitType>TRAIT_HEGEMONISM</TraitType>
+			<ModifierId>TRAIT_HEGEMONISM_FAVOR</ModifierId>
+		</Row>
 	</TraitModifiers>
 	<Modifiers>
 		<!-- 穷兵黩武 -->
@@ -120,6 +124,10 @@
 		<Row>
 			<ModifierId>TRAIT_HEGEMONISM_CITY_STATE_TOKEN_SAME_RELIGION</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_DUPLICATE_INFLUENCE_TOKEN_WHEN_SAME_RELIGION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HEGEMONISM_FAVOR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GOVERNMENT_SLOT_TYPE_GRANT_FAVOR</ModifierType>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -230,6 +238,16 @@
 			<ModifierId>TRAIT_HEGEMONISM_CITY_STATE_TOKEN_SAME_RELIGION</ModifierId>
 			<Name>Amount</Name>
 			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HEGEMONISM_FAVOR</ModifierId>
+			<Name>GovernmentSlotType</Name>
+			<Value>SLOT_WILDCARD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HEGEMONISM_FAVOR</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
 		</Row>
 	</ModifierArguments>
 	<RequirementSets>
@@ -450,11 +468,9 @@
 		
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_LEADER_MAGNANIMOUS"/> <!-- 购买伟人返还20%点数 -->
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_PLATOS_REPUBLIC"/> <!-- +1通用槽位 -->
-		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_FOUNDING_FATHERS"/> <!-- 外交转通用；通用+1外交 -->
+		<!-- <Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_FOUNDING_FATHERS"/>--> <!-- 外交转通用；通用+1外交 -->
 
 		<!-- 暂停 -->
-		<!-- <Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_IMPERIAL_FREE_CITIES"/> <!-- +1额外区域 -->-->
-		<!-- <Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_LEADER_RELIGION_CITY_STATES"/>--> <!-- 杀人+信仰；信教城邦使者翻倍 -->
 		<!--<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_LEADER_GIFTS_FOR_TLATOANI"/>--> <!-- 奢饰+1力、额外增益2城 -->
 		<!--<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_EJERCITO_PATRIOTA"/>--> <!-- +1移动力；升级继续操作 -->
 		<!--<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_LEADER_KILLER_OF_CYRUS"/>--> <!-- 打受伤+5力；杀人回血 -->
