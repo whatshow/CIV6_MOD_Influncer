@@ -60,6 +60,7 @@
 		<Row>
 			<ModifierId>TRAIT_MILITANCY_GARDE_GREAT_GENERAL_POINTS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>TRAIT_MILITANCY_REQ_LAND</SubjectRequirementSetId>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_MILITANCY_CULTURE_KILLS</ModifierId>
@@ -170,6 +171,31 @@
 			<Value>4</Value>
 		</Row>
 	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+            <RequirementSetId>TRAIT_MILITANCY_REQ_LAND</RequirementSetId>
+            <RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+        </Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+            <RequirementSetId>TRAIT_MILITANCY_REQ_LAND</RequirementSetId>
+            <RequirementId>TRAIT_MILITANCY_REQ_LAND_WARRIOR_MONK</RequirementId>
+        </Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+            <RequirementId>TRAIT_MILITANCY_REQ_LAND_WARRIOR_MONK</RequirementId>
+            <RequirementType>REQUIREMENT_UNIT_TAG_MATCHES</RequirementType>
+        </Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+            <RequirementId>TRAIT_MILITANCY_REQ_LAND_WARRIOR_MONK</RequirementId>
+            <Name>Tag</Name>
+            <Value>CLASS_WARRIOR_MONK</Value>
+        </Row>
+	</RequirementArguments>
 
 	<LeaderTraits>
 		<!-- 秦始皇（大一统） -->
