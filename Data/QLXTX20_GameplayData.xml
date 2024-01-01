@@ -16,6 +16,10 @@
 		<!-- 穷兵黩武 -->
 		<Row>
 			<TraitType>TRAIT_MILITANCY</TraitType>
+			<ModifierId>TRAIT_MILITANCY_MOVEMENT</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_MILITANCY</TraitType>
 			<ModifierId>TRAIT_MILITANCY_UPGRADE_MILITARY_FORMATION_ON_CITY_CONQUEST</ModifierId>
 		</Row>
 		<Row>
@@ -108,6 +112,10 @@
 	</TraitModifiers>
 	<Modifiers>
 		<!-- 穷兵黩武 -->
+		<Row>
+			<ModifierId>TRAIT_MILITANCY_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_MOVEMENT</ModifierType>
+		</Row>
 		<Row>
 			<ModifierId>TRAIT_MILITANCY_UPGRADE_MILITARY_FORMATION_ON_CITY_CONQUEST</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADD_UPGRADE_MILITARY_FORMATION_ON_CITY_CONQUEST</ModifierType>
@@ -218,6 +226,11 @@
 	</Modifiers>
 	<ModifierArguments>
 		<!-- 穷兵黩武 -->
+		<Row>
+			<ModifierId>TRAIT_MILITANCY_MOVEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
 		<!-- 将敌人转化为工人 -->
 		<Row>
 			<ModifierId>TRAIT_MILITANCY_CAPTURE_COMBAT_UNITS_AS_WORKERS</ModifierId>
@@ -265,7 +278,7 @@
 		<Row>
 			<ModifierId>TRAIT_MILITANCY_CULTURE_KILLS</ModifierId>
 			<Name>PercentDefeatedStrength</Name>
-			<Value>10</Value>
+			<Value>25</Value>
 		</Row>
 		<!-- 杀人加信仰 -->
 		<Row>
