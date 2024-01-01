@@ -70,7 +70,7 @@
 		<!-- 大兴土木 -->
 		<Row>
 			<TraitType>TRAIT_CIVILENG</TraitType>
-			<ModifierId>TRAIT_CIVILENG_EXTRA_TECH</ModifierId>
+			<ModifierId>TRAIT_CANAL_UNLOCK_MASONRY</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_CIVILENG</TraitType>
@@ -180,10 +180,7 @@
 			<ModifierId>TRAIT_CIVILENG_EXTRA_AREA</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_EXTRA_DISTRICT</ModifierType>
 		</Row>
-		<Row>
-			<ModifierId>TRAIT_CIVILENG_EXTRA_TECH</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY</ModifierType>
-		</Row>
+		
 		<Row>
 			<ModifierId>TRAIT_CIVILENG_ROADS_TO_CAPITAL</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_GRANT_ROAD_TO_CAPITAL</ModifierType>
@@ -339,11 +336,6 @@
 			<Value>25</Value>
 		</Row>
 		<!-- 大兴土木 -->
-		<Row>
-			<ModifierId>TRAIT_CIVILENG_EXTRA_TECH</ModifierId>
-			<Name>TechType</Name>
-			<Value>TECH_STEAM_POWER</Value>
-		</Row>
 		<Row>
 			<ModifierId>TRAIT_CIVILENG_EXTRA_AREA</ModifierId>
 			<Name>Amount</Name>
@@ -638,12 +630,5 @@
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_FOOLISH_SLAVERY"/>
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILENG"/>
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_HEGEMONISM"/>
-		
-		<!-- 种田 -->
-
-
-		<!-- 暂停 -->
-		<!--<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_BYZANTIUM"/>--> <!-- 皈依1圣城+3力；杀人传教；圣地+1大预言家 -->
-		<!--<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_NKISI"/>--> <!-- +4外用槽位，增加巨作效果 -->
 	</LeaderTraits>
 </GameInfo>

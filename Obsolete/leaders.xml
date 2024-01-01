@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GameInfo>
+    <TraitModifiers>
+        <Row>
+			<TraitType>TRAIT_CIVILENG</TraitType>
+			<ModifierId>TRAIT_CIVILENG_EXTRA_TECH</ModifierId>
+		</Row>
+    </TraitModifiers>
+    <Modifiers>
+        <Row>
+			<ModifierId>TRAIT_CIVILENG_EXTRA_TECH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY</ModifierType>
+		</Row>
+    </Modifiers>
+    <ModifierArguments>
+        <Row>
+			<ModifierId>TRAIT_CIVILENG_EXTRA_TECH</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_STEAM_POWER</Value>
+		</Row>
+    </ModifierArguments>
+</GameInfo>
