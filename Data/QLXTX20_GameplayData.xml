@@ -67,6 +67,10 @@
 			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_GREAT_PEOPLE_POINTS_PER_KILL</ModifierType>
 		</Row>
 		<Row>
+			<ModifierId>TRAIT_MILITANCY_GREAT_ADMIRAL_POINTS_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_GREAT_PEOPLE_POINTS_PER_KILL</ModifierType>
+		</Row>
+		<Row>
 			<ModifierId>TRAIT_MILITANCY_CULTURE_KILLS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_POST_COMBAT_YIELD</ModifierType>
 		</Row>
@@ -120,6 +124,17 @@
 			<ModifierId>TRAIT_MILITANCY_GARDE_GREAT_GENERAL_POINTS_MODIFIER</ModifierId>
 			<Name>GreatPersonClassType</Name>
 			<Value>GREAT_PERSON_CLASS_GENERAL</Value>
+		</Row>
+		<!-- 杀死敌人产生海军统帅点数。 -->
+		<Row>
+			<ModifierId>TRAIT_MILITANCY_GREAT_ADMIRAL_POINTS_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MILITANCY_GREAT_ADMIRAL_POINTS_MODIFIER</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ADMIRAL</Value>
 		</Row>
 		<!-- 杀人加文化 -->
 		<Row>
@@ -190,6 +205,10 @@
             <RequirementSetId>TRAIT_MILITANCY_REQ_LAND</RequirementSetId>
             <RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
         </Row>
+		<Row>
+            <RequirementSetId>TRAIT_MILITANCY_REQ_NAVY</RequirementSetId>
+            <RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+        </Row>
 	</RequirementSets>
 	<RequirementSetRequirements>
 		<Row>
@@ -236,6 +255,18 @@
             <RequirementSetId>TRAIT_MILITANCY_REQ_LAND</RequirementSetId>
             <RequirementId>TRAIT_MILITANCY_REQ_LAND_WARRIOR_MONK</RequirementId>
         </Row>
+		<Row>
+            <RequirementSetId>TRAIT_MILITANCY_REQ_NAVY</RequirementSetId>
+            <RequirementId>TRAIT_MILITANCY_REQ_NAVY_RANGED</RequirementId>
+        </Row>
+		<Row>
+            <RequirementSetId>TRAIT_MILITANCY_REQ_NAVY</RequirementSetId>
+            <RequirementId>TRAIT_MILITANCY_REQ_NAVY_RAIDER</RequirementId>
+        </Row>
+		<Row>
+            <RequirementSetId>TRAIT_MILITANCY_REQ_NAVY</RequirementSetId>
+            <RequirementId>TRAIT_MILITANCY_REQ_NAVY_MELEE</RequirementId>
+        </Row>
 	</RequirementSetRequirements>
 	<Requirements>
 		<Row>
@@ -280,6 +311,18 @@
         </Row>
 		<Row>
             <RequirementId>TRAIT_MILITANCY_REQ_LAND_WARRIOR_MONK</RequirementId>
+            <RequirementType>REQUIREMENT_UNIT_TAG_MATCHES</RequirementType>
+        </Row>
+		<Row>
+            <RequirementId>TRAIT_MILITANCY_REQ_NAVY_RANGED</RequirementId>
+            <RequirementType>REQUIREMENT_UNIT_TAG_MATCHES</RequirementType>
+        </Row>
+		<Row>
+            <RequirementId>TRAIT_MILITANCY_REQ_NAVY_RAIDER</RequirementId>
+            <RequirementType>REQUIREMENT_UNIT_TAG_MATCHES</RequirementType>
+        </Row>
+		<Row>
+            <RequirementId>TRAIT_MILITANCY_REQ_NAVY_MELEE</RequirementId>
             <RequirementType>REQUIREMENT_UNIT_TAG_MATCHES</RequirementType>
         </Row>
 	</Requirements>
@@ -338,6 +381,21 @@
             <RequirementId>TRAIT_MILITANCY_REQ_LAND_WARRIOR_MONK</RequirementId>
             <Name>Tag</Name>
             <Value>CLASS_WARRIOR_MONK</Value>
+        </Row>
+		<Row>
+            <RequirementId>TRAIT_MILITANCY_REQ_NAVY_RANGED</RequirementId>
+            <Name>Tag</Name>
+            <Value>CLASS_NAVAL_RANGED</Value>
+        </Row>
+		<Row>
+            <RequirementId>TRAIT_MILITANCY_REQ_NAVY_RAIDER</RequirementId>
+            <Name>Tag</Name>
+            <Value>CLASS_NAVAL_RAIDER</Value>
+        </Row>
+		<Row>
+            <RequirementId>TRAIT_MILITANCY_REQ_NAVY_MELEE</RequirementId>
+            <Name>Tag</Name>
+            <Value>CLASS_NAVAL_MELEE</Value>
         </Row>
 	</RequirementArguments>
 
