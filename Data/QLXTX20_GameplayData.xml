@@ -70,6 +70,10 @@
 		<!-- 大兴土木 -->
 		<Row>
 			<TraitType>TRAIT_CIVILENG</TraitType>
+			<ModifierId>TRAIT_CIVILENG_EXTRA_PALACE_SLOTS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILENG</TraitType>
 			<ModifierId>TRAIT_CANAL_UNLOCK_MASONRY</ModifierId>
 		</Row>
 		<Row>
@@ -176,6 +180,10 @@
 			<ModifierType>MODIFIER_PLAYER_ADJUST_UNIT_WONDER_PERCENT</ModifierType>
 		</Row>
 		<!-- 大兴土木 -->
+		<Row>
+			<ModifierId>TRAIT_CIVILENG_EXTRA_PALACE_SLOTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>
+		</Row>
 		<Row>
 			<ModifierId>TRAIT_CIVILENG_EXTRA_AREA</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_EXTRA_DISTRICT</ModifierType>
@@ -336,6 +344,21 @@
 			<Value>25</Value>
 		</Row>
 		<!-- 大兴土木 -->
+		<Row>
+			<ModifierId>TRAIT_CIVILENG_EXTRA_PALACE_SLOTS</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_PALACE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILENG_EXTRA_PALACE_SLOTS</ModifierId>
+			<Name>GreatWorkSlotType</Name>
+			<Value>GREATWORKSLOT_PALACE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILENG_EXTRA_PALACE_SLOTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
 		<Row>
 			<ModifierId>TRAIT_CIVILENG_EXTRA_AREA</ModifierId>
 			<Name>Amount</Name>
