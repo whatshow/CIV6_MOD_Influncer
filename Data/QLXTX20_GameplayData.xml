@@ -194,6 +194,46 @@
 	<RequirementSetRequirements>
 		<Row>
             <RequirementSetId>TRAIT_MILITANCY_REQ_LAND</RequirementSetId>
+			<RequirementId>TRAIT_MILITANCY_REQ_LAND_CLASS_RECON</RequirementId>
+        </Row>
+		<Row>
+            <RequirementSetId>TRAIT_MILITANCY_REQ_LAND</RequirementSetId>
+			<RequirementId>TRAIT_MILITANCY_REQ_LAND_CLASS_MELEE</RequirementId>
+        </Row>
+		<Row>
+            <RequirementSetId>TRAIT_MILITANCY_REQ_LAND</RequirementSetId>
+			<RequirementId>TRAIT_MILITANCY_REQ_LAND_CLASS_RANGED</RequirementId>
+        </Row>
+		<Row>
+            <RequirementSetId>TRAIT_MILITANCY_REQ_LAND</RequirementSetId>
+			<RequirementId>TRAIT_MILITANCY_REQ_LAND_CLASS_SIEGE</RequirementId>
+        </Row>
+		<Row>
+            <RequirementSetId>TRAIT_MILITANCY_REQ_LAND</RequirementSetId>
+			<RequirementId>TRAIT_MILITANCY_REQ_LAND_CLASS_HEAVY_CAVALRY</RequirementId>
+        </Row>
+		<Row>
+            <RequirementSetId>TRAIT_MILITANCY_REQ_LAND</RequirementSetId>
+			<RequirementId>TRAIT_MILITANCY_REQ_LAND_CLASS_LIGHT_CAVALRY</RequirementId>
+        </Row>
+		<Row>
+            <RequirementSetId>TRAIT_MILITANCY_REQ_LAND</RequirementSetId>
+			<RequirementId>TRAIT_MILITANCY_REQ_LAND_CLASS_RANGED_CAVALRY</RequirementId>
+        </Row>
+		<Row>
+            <RequirementSetId>TRAIT_MILITANCY_REQ_LAND</RequirementSetId>
+			<RequirementId>TRAIT_MILITANCY_REQ_LAND_CLASS_ANTI_CAVALRY</RequirementId>
+        </Row>
+		<Row>
+            <RequirementSetId>TRAIT_MILITANCY_REQ_LAND</RequirementSetId>
+			<RequirementId>TRAIT_MILITANCY_REQ_LAND_CLASS_HEAVY_CHARIOT</RequirementId>
+        </Row>
+		<Row>
+            <RequirementSetId>TRAIT_MILITANCY_REQ_LAND</RequirementSetId>
+			<RequirementId>TRAIT_MILITANCY_REQ_LAND_CLASS_LIGHT_CHARIOT</RequirementId>
+        </Row>
+		<Row>
+            <RequirementSetId>TRAIT_MILITANCY_REQ_LAND</RequirementSetId>
             <RequirementId>TRAIT_MILITANCY_REQ_LAND_WARRIOR_MONK</RequirementId>
         </Row>
 	</RequirementSetRequirements>
