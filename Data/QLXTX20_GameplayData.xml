@@ -34,6 +34,10 @@
 			<TraitType>TRAIT_MILITANCY</TraitType>
 			<ModifierId>TRAIT_MILITANCY_FAITH_KILLS</ModifierId>
 		</Row>
+		<Row>
+			<TraitType>TRAIT_MILITANCY</TraitType>
+			<ModifierId>TRAIT_MILITANCY_SLOT_MILITARY</ModifierId>
+		</Row>
 		<!-- 愚民奴役 -->
 		<Row>
 			<TraitType>TRAIT_FOOLISH_SLAVERY</TraitType>
@@ -73,6 +77,10 @@
 			<TraitType>TRAIT_HEGEMONISM</TraitType>
 			<ModifierId>TRAIT_HEGEMONISM_SPY_ADD</ModifierId>
 		</Row>
+		<Row>
+			<TraitType>TRAIT_HEGEMONISM</TraitType>
+			<ModifierId>TRAIT_HEGEMONISM_SPY_PROMOTED</ModifierId>
+		</Row>
 	</TraitModifiers>
 	<Modifiers>
 		<!-- 穷兵黩武 -->
@@ -105,6 +113,10 @@
 		<Row>
 			<ModifierId>TRAIT_MILITANCY_FAITH_KILLS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_POST_COMBAT_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MILITANCY_SLOT_MILITARY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
 		</Row>
 		<!-- 愚民奴役 -->
 		<Row>
@@ -148,6 +160,12 @@
 			<RunOnce>true</RunOnce>
 			<Permanent>true</Permanent>
 			<OwnerRequirementsetId>TRAIT_HEGEMONISM_SPY_ADD_REQ</OwnerRequirementsetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HEGEMONISM_SPY_PROMOTED</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_GRANT_EXPERIENCE</ModifierType>
+			<Permanent>true</Permanent>
+			<SubjectRequirementSetId>UNIT_IS_SPY</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -212,6 +230,12 @@
 			<Name>PercentDefeatedStrength</Name>
 			<Value>100</Value>
 		</Row>
+		<!-- +1军事槽位 -->
+		<Row>
+			<ModifierId>TRAIT_MILITANCY_SLOT_MILITARY</ModifierId>
+			<Name>GovernmentSlotType</Name>
+			<Value>SLOT_MILITARY</Value>
+		</Row>
 		<!-- 愚民奴役 -->
 		<!-- 减少80%科技 -->
 		<Row>
@@ -223,12 +247,6 @@
 			<ModifierId>TRAIT_FOOLISH_SLAVERY_DECREASE_SCIENCE</ModifierId>
 			<Name>Amount</Name>
 			<Value>-80</Value>
-		</Row>
-		<!-- 大兴土木 -->
-		<Row>
-			<ModifierId>TRAIT_CIVILENG_EXTRA_AREA</ModifierId>
-			<Name>Amount</Name>
-			<Value>4</Value>
 		</Row>
 		<!-- 减少80%文化 -->
 		<Row>
@@ -252,6 +270,12 @@
 			<ModifierId>TRAIT_FOOLISH_SLAVERY_BUILDER_WONDER_PERCENT</ModifierId>
 			<Name>Amount</Name>
 			<Value>25</Value>
+		</Row>
+		<!-- 大兴土木 -->
+		<Row>
+			<ModifierId>TRAIT_CIVILENG_EXTRA_AREA</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
 		</Row>
 		<!-- 霸权主义 -->
 		<Row>
@@ -284,6 +308,16 @@
 			<ModifierId>TRAIT_HEGEMONISM_SPY_ADD</ModifierId>
 			<Name>Amount</Name>
 			<Value>16</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HEGEMONISM_SPY_ADD</ModifierId>
+			<Name>AllowUniqueOverride</Name>
+			<Value>false</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HEGEMONISM_SPY_PROMOTED</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
 		</Row>
 	</ModifierArguments>
 	<RequirementSets>
@@ -529,9 +563,6 @@
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_HEGEMONISM"/>
 		
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_ZULU_ISIBONGO"/> <!-- 驻军+3忠诚、组团+5，攻城组团（需要市政） -->
-		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_LEADER_HOLY_ROMAN_EMPEROR"/> <!-- +1军事槽 -->
-		
-		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_MONGOLIAN_ORTOO"/> <!-- 贸易路线给驿站；驿站+1情报等级；情报等级加力翻倍 -->
 		
 		<!-- 种田 -->
 		
@@ -540,14 +571,7 @@
 
 
 		<!-- 暂停 -->
-		<!--<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_LEADER_GIFTS_FOR_TLATOANI"/>--> <!-- 奢饰+1力、额外增益2城 -->
-		<!--<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_EJERCITO_PATRIOTA"/>--> <!-- +1移动力；升级继续操作 -->
-		<!--<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_LEADER_KILLER_OF_CYRUS"/>--> <!-- 打受伤+5力；杀人回血 -->
 		<!--<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_BYZANTIUM"/>--> <!-- 皈依1圣城+3力；杀人传教；圣地+1大预言家 -->
-		<!--<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_LEADER_GENGHIS_KHAN_ABILITY"/>--> <!-- 骑兵+3力；击败捕获 -->
-		<!--<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_LEADER_DIVINE_WIND"/>--> <!-- 海岸附近+5力；军营、圣地、剧院广场减半；单位不受飓风伤害；国境内飓风伤害对敌+100% -->
 		<!--<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_NKISI"/>--> <!-- +4外用槽位，增加巨作效果 -->
-		<!--<Row LeaderType="LEADER_QIN_ALT" TraitType="FIRST_EMPEROR_TRAIT"/>-->  <!-- 文秦技能 -->
-		<!--<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_LEADER_EXALTED_GODDESS"/>--> <!-- 信仰买海军、宗教上下海无移动力消耗、市中心相邻湖泊海岸+2信仰 -->
 	</LeaderTraits>
 </GameInfo>
