@@ -24,7 +24,7 @@
 			<Text>霸权主义</Text>
 		</Replace>
 		<Replace Tag="TRAIT_HEGEMONISM_NAME_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>给信仰中国创立宗教的城邦派遣使者时，免费额外派遣4个。每个通配符槽位每回合提供+5外交支持。</Text>
+			<Text>给信仰中国创立宗教的城邦派遣使者时，免费额外派遣4个。每个通配符槽位每回合提供+5外交支持。解锁货币后免费获得16名间谍（并增加16个间谍容量）。</Text>
 		</Replace>
 
 

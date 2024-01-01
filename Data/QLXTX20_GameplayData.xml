@@ -65,6 +65,14 @@
 			<TraitType>TRAIT_HEGEMONISM</TraitType>
 			<ModifierId>TRAIT_HEGEMONISM_FAVOR</ModifierId>
 		</Row>
+		<Row>
+			<TraitType>TRAIT_HEGEMONISM</TraitType>
+			<ModifierId>TRAIT_HEGEMONISM_SPY_CAPACITY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_HEGEMONISM</TraitType>
+			<ModifierId>TRAIT_HEGEMONISM_SPY_ADD</ModifierId>
+		</Row>
 	</TraitModifiers>
 	<Modifiers>
 		<!-- 穷兵黩武 -->
@@ -128,6 +136,18 @@
 		<Row>
 			<ModifierId>TRAIT_HEGEMONISM_FAVOR</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_GOVERNMENT_SLOT_TYPE_GRANT_FAVOR</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HEGEMONISM_SPY_CAPACITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPY</ModifierType>
+			<OwnerRequirementsetId>TRAIT_HEGEMONISM_SPY_REQ</OwnerRequirementsetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HEGEMONISM_SPY_ADD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+			<OwnerRequirementsetId>TRAIT_HEGEMONISM_SPY_ADD_REQ</OwnerRequirementsetId>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -249,6 +269,22 @@
 			<Name>Amount</Name>
 			<Value>5</Value>
 		</Row>
+		<!-- 间谍能力 -->
+		<Row>
+			<ModifierId>TRAIT_HEGEMONISM_SPY_CAPACITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>16</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HEGEMONISM_SPY_ADD</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_SPY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HEGEMONISM_SPY_ADD</ModifierId>
+			<Name>Amount</Name>
+			<Value>16</Value>
+		</Row>
 	</ModifierArguments>
 	<RequirementSets>
 		<Row>
@@ -261,7 +297,11 @@
         </Row>
 		<Row>
             <RequirementSetId>TRAIT_HEGEMONISM_SPY_REQ</RequirementSetId>
-            <RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+            <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+        </Row>
+		<Row>
+            <RequirementSetId>TRAIT_HEGEMONISM_SPY_ADD_REQ</RequirementSetId>
+            <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
         </Row>
 	</RequirementSets>
 	<RequirementSetRequirements>
@@ -327,6 +367,14 @@
 		<Row>
             <RequirementSetId>TRAIT_HEGEMONISM_SPY_REQ</RequirementSetId>
             <RequirementId>TRAIT_HEGEMONISM_SPY_REQ_TECH_CURRENCY</RequirementId>
+        </Row>
+		<Row>
+            <RequirementSetId>TRAIT_HEGEMONISM_SPY_ADD_REQ</RequirementSetId>
+            <RequirementId>TRAIT_HEGEMONISM_SPY_REQ_TECH_CURRENCY</RequirementId>
+        </Row>
+		<Row>
+            <RequirementSetId>TRAIT_HEGEMONISM_SPY_ADD_REQ</RequirementSetId>
+            <RequirementId>REQUIRES_CAPITAL_CITY</RequirementId>
         </Row>
 	</RequirementSetRequirements>
 	<Requirements>
@@ -483,15 +531,13 @@
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_ZULU_ISIBONGO"/> <!-- 驻军+3忠诚、组团+5，攻城组团（需要市政） -->
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_LEADER_HOLY_ROMAN_EMPEROR"/> <!-- +1军事槽 -->
 		
-		
-		<Row LeaderType="LEADER_QIN_ALT" TraitType="FLYING_SQUADRON_TRAIT"/> <!-- +1间谍容量；情报提升1级 -->
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_MONGOLIAN_ORTOO"/> <!-- 贸易路线给驿站；驿站+1情报等级；情报等级加力翻倍 -->
 		
 		<!-- 种田 -->
 		
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_LEADER_MAGNANIMOUS"/> <!-- 购买伟人返还20%点数 -->
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_PLATOS_REPUBLIC"/> <!-- +1通用槽位 -->
-		<!-- <Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_FOUNDING_FATHERS"/>--> <!-- 外交转通用；通用+1外交 -->
+
 
 		<!-- 暂停 -->
 		<!--<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_LEADER_GIFTS_FOR_TLATOANI"/>--> <!-- 奢饰+1力、额外增益2城 -->
