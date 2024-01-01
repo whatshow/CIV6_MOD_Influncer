@@ -66,6 +66,10 @@
 		<!-- 大兴土木 -->
 		<Row>
 			<TraitType>TRAIT_CIVILENG</TraitType>
+			<ModifierId>TRAIT_CIVILENG_EXTRA_TECH</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILENG</TraitType>
 			<ModifierId>TRAIT_CIVILENG_EXTRA_AREA</ModifierId>
 		</Row>
 		<!-- 霸权主义 -->
@@ -155,6 +159,10 @@
 		<Row>
 			<ModifierId>TRAIT_CIVILENG_EXTRA_AREA</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_EXTRA_DISTRICT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILENG_EXTRA_TECH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY</ModifierType>
 		</Row>
 		<!-- 霸权主义 -->
 		<Row>
@@ -295,10 +303,16 @@
 		</Row>
 		<!-- 大兴土木 -->
 		<Row>
+			<ModifierId>TRAIT_CIVILENG_EXTRA_TECH</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_STEAM_POWER</Value>
+		</Row>
+		<Row>
 			<ModifierId>TRAIT_CIVILENG_EXTRA_AREA</ModifierId>
 			<Name>Amount</Name>
 			<Value>4</Value>
 		</Row>
+
 		<!-- 霸权主义 -->
 		<Row>
 			<ModifierId>TRAIT_HEGEMONISM_CITY_STATE_TOKEN_SAME_RELIGION</ModifierId>
