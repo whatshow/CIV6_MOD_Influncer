@@ -375,8 +375,14 @@
             <RequirementId>TRAIT_MILITANCY_REQ_NAVY_MELEE</RequirementId>
             <RequirementType>REQUIREMENT_UNIT_TAG_MATCHES</RequirementType>
         </Row>
+		<!-- TECH -->
+		<Row>
+			<RequirementId>TRAIT_HEGEMONISM_SPY_REQ_TECH_CURRENCY</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
 	</Requirements>
 	<RequirementArguments>
+		<!-- land units -->
 		<Row>
             <RequirementId>TRAIT_MILITANCY_REQ_LAND_CLASS_RECON</RequirementId>
             <Name>Tag</Name>
@@ -432,6 +438,7 @@
             <Name>Tag</Name>
             <Value>CLASS_WARRIOR_MONK</Value>
         </Row>
+		<!-- navy units -->
 		<Row>
             <RequirementId>TRAIT_MILITANCY_REQ_NAVY_RANGED</RequirementId>
             <Name>Tag</Name>
@@ -447,6 +454,12 @@
             <Name>Tag</Name>
             <Value>CLASS_NAVAL_MELEE</Value>
         </Row>
+		<!-- Tech -->
+		<Row>
+            <RequirementId>TRAIT_HEGEMONISM_SPY_REQ_TECH_CURRENCY</RequirementId>
+            <Name>TechnologyType</Name>
+            <Value>TECH_CURRENCY</Value>
+        </Row>
 	</RequirementArguments>
 
 	<LeaderTraits>
@@ -461,7 +474,6 @@
 		
 		
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="FLYING_SQUADRON_TRAIT"/> <!-- +1间谍容量；情报提升1级 -->
-		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_LEADER_WU_ZETIAN"/> <!-- 进攻性间谍行动效果提升1级。进攻性间谍任务成功时，获得目标城市该回合文化值和科技值的50%。防御战术+1间谍 -->
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILIZATION_MONGOLIAN_ORTOO"/> <!-- 贸易路线给驿站；驿站+1情报等级；情报等级加力翻倍 -->
 		
 		<!-- 种田 -->
