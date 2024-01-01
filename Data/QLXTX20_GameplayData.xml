@@ -70,6 +70,18 @@
 		</Row>
 		<Row>
 			<TraitType>TRAIT_CIVILENG</TraitType>
+			<ModifierId>TRAIT_CIVILENG_ROADS_TO_CAPITAL</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILENG</TraitType>
+			<ModifierId>TRAIT_CIVILENG_IMPROVED_ROUTE_LEVEL</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILENG</TraitType>
+			<ModifierId>TRAIT_CIVILENG_TRADING_POSTS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILENG</TraitType>
 			<ModifierId>TRAIT_CIVILENG_EXTRA_AREA</ModifierId>
 		</Row>
 		<!-- 霸权主义 -->
@@ -163,6 +175,18 @@
 		<Row>
 			<ModifierId>TRAIT_CIVILENG_EXTRA_TECH</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILENG_ROADS_TO_CAPITAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_GRANT_ROAD_TO_CAPITAL</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILENG_TRADING_POSTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_GRANT_TRADING_POST</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILENG_IMPROVED_ROUTE_LEVEL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_IMPROVED_ROUTE_LEVEL</ModifierType>
 		</Row>
 		<!-- 霸权主义 -->
 		<Row>
@@ -312,7 +336,11 @@
 			<Name>Amount</Name>
 			<Value>4</Value>
 		</Row>
-
+		<Row>
+			<ModifierId>TRAIT_CIVILENG_IMPROVED_ROUTE_LEVEL</ModifierId>
+			<Name>ImprovedRouteLevel</Name>
+			<Value>1</Value>
+		</Row>
 		<!-- 霸权主义 -->
 		<Row>
 			<ModifierId>TRAIT_HEGEMONISM_CITY_STATE_TOKEN_SAME_RELIGION</ModifierId>
