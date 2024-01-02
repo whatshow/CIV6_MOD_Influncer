@@ -14,10 +14,12 @@
 	</Traits>
 	<TraitModifiers>
 		<!-- 穷兵黩武 -->
+		<!--
 		<Row>
 			<TraitType>TRAIT_MILITANCY</TraitType>
 			<ModifierId>TRAIT_MILITANCY_MOVEMENT</ModifierId>
 		</Row>
+		-->
 		<Row>
 			<TraitType>TRAIT_MILITANCY</TraitType>
 			<ModifierId>TRAIT_MILITANCY_UPGRADE_MILITARY_FORMATION_ON_CITY_CONQUEST</ModifierId>
@@ -337,7 +339,7 @@
 		<Row>
 			<ModifierId>TRAIT_FOOLISH_SLAVERY_DECREASE_SCIENCE</ModifierId>
 			<Name>Amount</Name>
-			<Value>-80</Value>
+			<Value>-50</Value>
 		</Row>
 		<!-- 减少80%文化 -->
 		<Row>
@@ -348,7 +350,7 @@
 		<Row>
 			<ModifierId>TRAIT_FOOLISH_SLAVERY_DECREASE_CULTURE</ModifierId>
 			<Name>Amount</Name>
-			<Value>-80</Value>
+			<Value>-50</Value>
 		</Row>
 		<!-- 工人推进区域25%进度 -->
 		<Row>
@@ -408,7 +410,7 @@
 		<Row>
 			<ModifierId>TRAIT_HEGEMONISM_SPY_CAPACITY</ModifierId>
 			<Name>Amount</Name>
-			<Value>16</Value>
+			<Value>6</Value>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_HEGEMONISM_SPY_ADD</ModifierId>
@@ -418,7 +420,7 @@
 		<Row>
 			<ModifierId>TRAIT_HEGEMONISM_SPY_ADD</ModifierId>
 			<Name>Amount</Name>
-			<Value>16</Value>
+			<Value>6</Value>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_HEGEMONISM_SPY_ADD</ModifierId>
