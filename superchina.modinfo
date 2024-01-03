@@ -12,6 +12,7 @@
 	</Properties>
 	<InGameActions>
 		<UpdateDatabase id="QLXTX20_GAMEPLAY_DATA">
+			<File>Data/RequirementSets.xml</File>
 			<File>Data/requirements.xml</File>
 			<File>Data/leader_qin_alt.xml</File>
 		</UpdateDatabase>
@@ -30,6 +31,7 @@
 	</FrontEndActions>
 	-->
 	<Files>
+		<File>Data/RequirementSets.xml</File>
 		<File>Data/requirements.xml</File>
 		<File>Data/leader_qin_alt.xml</File>
 		<File>Data/ConfigData.xml</File>
