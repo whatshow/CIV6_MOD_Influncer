@@ -50,11 +50,7 @@
 		</Row>
 		<Row>
 			<TraitType>TRAIT_MILITANCY</TraitType>
-			<ModifierId>TRAIT_MILITANCY_SLOT_MILITARY</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_MILITANCY</TraitType>
-			<ModifierId>TRAIT_MILITANCY_SLOT_WILDCARD</ModifierId>
+			<ModifierId>WS_AB_SLOT_MILITARY_PLUS1</ModifierId>
 		</Row>
 		<!-- 愚民奴役 -->
 		<Row>
@@ -160,14 +156,7 @@
 			<ModifierId>TRAIT_MILITANCY_FAITH_KILLS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_POST_COMBAT_YIELD</ModifierType>
 		</Row>
-		<Row>
-			<ModifierId>TRAIT_MILITANCY_SLOT_MILITARY</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_MILITANCY_SLOT_WILDCARD</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
-		</Row>
+		
 		<!-- 愚民奴役 -->
 		
 		<Row>
@@ -300,18 +289,7 @@
 			<Name>PercentDefeatedStrength</Name>
 			<Value>100</Value>
 		</Row>
-		<!-- +1军事槽位 -->
-		<Row>
-			<ModifierId>TRAIT_MILITANCY_SLOT_MILITARY</ModifierId>
-			<Name>GovernmentSlotType</Name>
-			<Value>SLOT_MILITARY</Value>
-		</Row>
-		<!-- +1通用槽位 -->
-		<Row>
-			<ModifierId>TRAIT_MILITANCY_SLOT_WILDCARD</ModifierId>
-			<Name>GovernmentSlotType</Name>
-			<Value>SLOT_WILDCARD</Value>
-		</Row>
+		
 		<!-- 愚民奴役 -->
 		
 		<!-- 工人推进区域25%进度 -->

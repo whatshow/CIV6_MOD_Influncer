@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameInfo>
+    <Modifiers>
+         <!-- +1军事槽位 -->
+        <Row>
+			<ModifierId>WS_AB_SLOT_MILITARY_PLUS1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
+		</Row>
+        <!-- +1通用槽位 -->
+		<Row>
+			<ModifierId>WS_AB_SLOT_WILDCARD_PLUS1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
+		</Row>
+    </Modifiers>
+    <ModifierArguments>
+        <!-- +1军事槽位 -->
+		<Row>
+			<ModifierId>WS_AB_SLOT_MILITARY_PLUS1</ModifierId>
+			<Name>GovernmentSlotType</Name>
+			<Value>SLOT_MILITARY</Value>
+		</Row>
+		<!-- +1通用槽位 -->
+		<Row>
+			<ModifierId>WS_AB_SLOT_WILDCARD_PLUS1</ModifierId>
+			<Name>GovernmentSlotType</Name>
+			<Value>SLOT_WILDCARD</Value>
+		</Row>
+    </ModifierArguments>
+</GameInfo>

@@ -18,8 +18,9 @@
 			<File>Data/RequirementSets.xml</File>
 			<File>Data/requirements.xml</File>
 			<File>Data/Abilities/cities.xml</File>
+			<File>Data/Abilities/slots.xml</File>
 		</UpdateDatabase>
-		<UpdateText id="Elite_Soldier_Text_DATA">
+		<UpdateText id="WSInfluencerText">
       		<File>Text/civ_china_leader_qin_alt.xml</File>
     	</UpdateText>
 	</InGameActions>
@@ -37,6 +38,7 @@
 		<File>Data/RequirementSets.xml</File>
 		<File>Data/requirements.xml</File>
 		<File>Data/Abilities/cities.xml</File>
+		<File>Data/Abilities/slots.xml</File>
 		<File>Data/leader_qin_alt.xml</File>
 		<File>Data/ConfigData.xml</File>
 		<File>Text/civ_china_leader_qin_alt.xml</File>
