@@ -169,14 +169,7 @@
 			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
 		</Row>
 		<!-- 愚民奴役 -->
-		<Row>
-			<ModifierId>TRAIT_FOOLISH_SLAVERY_DECREASE_SCIENCE</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_FOOLISH_SLAVERY_DECREASE_CULTURE</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
-		</Row>
+		
 		<Row>
 			<ModifierId>TRAIT_FOOLISH_SLAVERY_BUILDER_DISTRICT_PERCENT</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_UNIT_DISTRICT_PERCENT</ModifierType>
@@ -320,28 +313,7 @@
 			<Value>SLOT_WILDCARD</Value>
 		</Row>
 		<!-- 愚民奴役 -->
-		<!-- 减少80%科技 -->
-		<Row>
-			<ModifierId>TRAIT_FOOLISH_SLAVERY_DECREASE_SCIENCE</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_SCIENCE</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_FOOLISH_SLAVERY_DECREASE_SCIENCE</ModifierId>
-			<Name>Amount</Name>
-			<Value>-50</Value>
-		</Row>
-		<!-- 减少80%文化 -->
-		<Row>
-			<ModifierId>TRAIT_FOOLISH_SLAVERY_DECREASE_CULTURE</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_CULTURE</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_FOOLISH_SLAVERY_DECREASE_CULTURE</ModifierId>
-			<Name>Amount</Name>
-			<Value>-50</Value>
-		</Row>
+		
 		<!-- 工人推进区域25%进度 -->
 		<Row>
 			<ModifierId>TRAIT_FOOLISH_SLAVERY_BUILDER_DISTRICT_PERCENT</ModifierId>
