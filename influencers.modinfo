@@ -2,7 +2,7 @@
 <Mod id="WSInfluencer" version="1">
 	<Properties>
 		<Name>风云人物包</Name>
-		<Teaser>解锁更多领袖，同时增强文明6本体领袖，以复合历史事实。</Teaser>
+		<Teaser>增强已有领袖和文明，添加更多文明和领袖。</Teaser>
 		<Description>秦始皇（大一统）获得额外能力：穷兵黩武、愚民奴役、大兴土木、霸权主义。</Description>
 		<Authors>Zike Wang</Authors>
 		<ShowInBrowser>AlwaysShow</ShowInBrowser>

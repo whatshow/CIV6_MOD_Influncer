@@ -1,5 +1,5 @@
-# CIV6 MOD SuperChina
-This mode is to enhance China in Civ6
+# CIV6 MOD Influencer
+文明6风云人物包：增强已有领袖和文明，添加更多文明和领袖。
 
 ## 秦始皇（大一统）
 ### 介绍
