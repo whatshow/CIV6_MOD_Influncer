@@ -17,7 +17,7 @@
 			<File>Data/leader_qin_alt.xml</File>
 		</UpdateDatabase>
 		<UpdateText id="Elite_Soldier_Text_DATA">
-      		<File>Text/text.xml</File>
+      		<File>Text/civ_china_leader_qin_alt.xml</File>
     	</UpdateText>
 	</InGameActions>
 	<!--
@@ -35,6 +35,6 @@
 		<File>Data/requirements.xml</File>
 		<File>Data/leader_qin_alt.xml</File>
 		<File>Data/ConfigData.xml</File>
-		<File>Text/text.xml</File>
+		<File>Text/civ_china_leader_qin_alt.xml</File>
 	</Files>
 </Mod>

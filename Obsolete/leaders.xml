@@ -11,12 +11,25 @@
 			<ModifierId>TRAIT_CIVILENG_EXTRA_TECH</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY</ModifierType>
 		</Row>
+		
+		<Row>
+			<ModifierId>TRAIT_HEGEMONISM_SPY_PROMOTED</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_GRANT_EXPERIENCE</ModifierType>
+			<Permanent>true</Permanent>
+			<SubjectRequirementSetId>UNIT_IS_SPY</SubjectRequirementSetId>
+		</Row>
     </Modifiers>
     <ModifierArguments>
         <Row>
 			<ModifierId>TRAIT_CIVILENG_EXTRA_TECH</ModifierId>
 			<Name>TechType</Name>
 			<Value>TECH_STEAM_POWER</Value>
+		</Row>
+		<!-- 提升为探员 -->
+		<Row>
+			<ModifierId>TRAIT_HEGEMONISM_SPY_PROMOTED</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
 		</Row>
     </ModifierArguments>
 	所有单位+2 [ICON_Movement] 移动力，

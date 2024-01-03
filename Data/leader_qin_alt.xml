@@ -115,10 +115,6 @@
 			<TraitType>TRAIT_HEGEMONISM</TraitType>
 			<ModifierId>TRAIT_HEGEMONISM_SPY_ADD</ModifierId>
 		</Row>
-		<Row>
-			<TraitType>TRAIT_HEGEMONISM</TraitType>
-			<ModifierId>TRAIT_HEGEMONISM_SPY_PROMOTED</ModifierId>
-		</Row>
 	</TraitModifiers>
 	<Modifiers>
 		<!-- 穷兵黩武 -->
@@ -231,12 +227,6 @@
 			<RunOnce>true</RunOnce>
 			<Permanent>true</Permanent>
 			<OwnerRequirementsetId>TRAIT_HEGEMONISM_SPY_ADD_REQ</OwnerRequirementsetId>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_HEGEMONISM_SPY_PROMOTED</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_GRANT_EXPERIENCE</ModifierType>
-			<Permanent>true</Permanent>
-			<SubjectRequirementSetId>UNIT_IS_SPY</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -394,7 +384,7 @@
 		<Row>
 			<ModifierId>TRAIT_HEGEMONISM_CITY_STATE_TOKEN_SAME_RELIGION</ModifierId>
 			<Name>Amount</Name>
-			<Value>4</Value>
+			<Value>2</Value>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_HEGEMONISM_FAVOR</ModifierId>
@@ -410,7 +400,7 @@
 		<Row>
 			<ModifierId>TRAIT_HEGEMONISM_SPY_CAPACITY</ModifierId>
 			<Name>Amount</Name>
-			<Value>6</Value>
+			<Value>1</Value>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_HEGEMONISM_SPY_ADD</ModifierId>
@@ -420,17 +410,12 @@
 		<Row>
 			<ModifierId>TRAIT_HEGEMONISM_SPY_ADD</ModifierId>
 			<Name>Amount</Name>
-			<Value>6</Value>
+			<Value>1</Value>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_HEGEMONISM_SPY_ADD</ModifierId>
 			<Name>AllowUniqueOverride</Name>
 			<Value>false</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_HEGEMONISM_SPY_PROMOTED</ModifierId>
-			<Name>Amount</Name>
-			<Value>-1</Value>
 		</Row>
 	</ModifierArguments>
 	
