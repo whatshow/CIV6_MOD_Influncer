@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="Enhanced_China" version="1">
+<Mod id="WSInfluencer" version="1">
 	<Properties>
 		<Name>风云人物包</Name>
 		<Teaser>解锁更多领袖，同时增强文明6本体领袖，以复合历史事实。</Teaser>
@@ -12,11 +12,11 @@
 	</Properties>
 	<InGameActions>
 		<UpdateDatabase id="QLXTX20_GAMEPLAY_DATA">
-			<File>Data/RequirementSets.xml</File>
-			<File>Data/requirements.xml</File>
 			<File>Data/leader_qin_alt.xml</File>
 		</UpdateDatabase>
 		<UpdateDatabase id="WSInfluencerCore">
+			<File>Data/RequirementSets.xml</File>
+			<File>Data/requirements.xml</File>
 			<File>Data/Abilities/cities.xml</File>
 		</UpdateDatabase>
 		<UpdateText id="Elite_Soldier_Text_DATA">
