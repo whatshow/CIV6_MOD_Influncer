@@ -59,11 +59,11 @@
 		<!-- 愚民奴役 -->
 		<Row>
 			<TraitType>TRAIT_FOOLISH_SLAVERY</TraitType>
-			<ModifierId>TRAIT_FOOLISH_SLAVERY_DECREASE_SCIENCE</ModifierId>
+			<ModifierId>WS_AB_CITY_DECREASE_SCIENCE_50</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_FOOLISH_SLAVERY</TraitType>
-			<ModifierId>TRAIT_FOOLISH_SLAVERY_DECREASE_CULTURE</ModifierId>
+			<ModifierId>WS_AB_CITY_DECREASE_CULTURE_50</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_FOOLISH_SLAVERY</TraitType>

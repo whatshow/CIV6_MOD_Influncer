@@ -1,35 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GameInfo>
     <Modifiers>
+		<!-- 减少50%科技 -->
         <Row>
-                <ModifierId>TRAIT_FOOLISH_SLAVERY_DECREASE_SCIENCE</ModifierId>
-                <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
-            </Row>
-            <Row>
-                <ModifierId>TRAIT_FOOLISH_SLAVERY_DECREASE_CULTURE</ModifierId>
-                <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
-            </Row>
+            <ModifierId>WS_AB_CITY_DECREASE_SCIENCE_50</ModifierId>
+            <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+        </Row>
+		<!-- 减少50%文化 -->
+        <Row>
+        	<ModifierId>WS_AB_CITY_DECREASE_CULTURE_50</ModifierId>
+            <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+    	</Row>
     </Modifiers>
     <ModifierArguments>
-        <!-- 减少80%科技 -->
+        <!-- 减少50%科技 -->
 		<Row>
-			<ModifierId>TRAIT_FOOLISH_SLAVERY_DECREASE_SCIENCE</ModifierId>
+			<ModifierId>WS_AB_CITY_DECREASE_SCIENCE_50</ModifierId>
 			<Name>YieldType</Name>
 			<Value>YIELD_SCIENCE</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_FOOLISH_SLAVERY_DECREASE_SCIENCE</ModifierId>
+			<ModifierId>WS_AB_CITY_DECREASE_SCIENCE_50</ModifierId>
 			<Name>Amount</Name>
 			<Value>-50</Value>
 		</Row>
-		<!-- 减少80%文化 -->
+		<!-- 减少50%文化 -->
 		<Row>
-			<ModifierId>TRAIT_FOOLISH_SLAVERY_DECREASE_CULTURE</ModifierId>
+			<ModifierId>WS_AB_CITY_DECREASE_CULTURE_50</ModifierId>
 			<Name>YieldType</Name>
 			<Value>YIELD_CULTURE</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_FOOLISH_SLAVERY_DECREASE_CULTURE</ModifierId>
+			<ModifierId>WS_AB_CITY_DECREASE_CULTURE_50</ModifierId>
 			<Name>Amount</Name>
 			<Value>-50</Value>
 		</Row>
