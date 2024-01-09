@@ -20,6 +20,10 @@
 			<ModifierId>TRAIT_MILITANCY_MOVEMENT</ModifierId>
 		</Row>
 		-->
+		<!-- <Row>
+			<TraitType>TRAIT_MILITANCY</TraitType>
+			<ModifierId>WS_AB_TRADE_SCORE</ModifierId>
+		</Row> -->
 		<Row>
 			<TraitType>TRAIT_MILITANCY</TraitType>
 			<ModifierId>TRAIT_MILITANCY_UPGRADE_MILITARY_FORMATION_ON_CITY_CONQUEST</ModifierId>

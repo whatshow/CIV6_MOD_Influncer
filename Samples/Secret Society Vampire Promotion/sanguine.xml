@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GameInfo>
+	<SecretSocieties>
+        <Update>
+            <Where SecretSocietyType="SECRETSOCIETY_SANGUINE_PACT" />
+            <Set DiscoverAtBarbarianCampBaseChance="100" />
+        </Update>
+	</SecretSocieties>
+	<Units>
+        <Update>
+            <Where UnitType="UNIT_VAMPIRE" />
+            <Set BaseMoves="3" BaseSightRange="3" CanEarnExperience="true" Description="Combat unit unique to the Sanguine Pact. Has base [ICON_Strength] Combat Strength equal to the strongest unit your cities have produced. Gains [ICON_Strength] Combat Strength when units die in adjacent tiles (bonus from barbarians is capped at +10). When killed, retreats to the [ICON_Capital] Capital or nearest Vampire Castle. Increased heals from pillaging enemy tiles, but has reduced passive healing." />
+        </Update>
+	</Units>
+</GameInfo>
