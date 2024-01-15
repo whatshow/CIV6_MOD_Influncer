@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BC_Terrain_Changes -->
+<!-- Author: Inquisitive Otter -->
+<!-- DateCreated: 10/14/2021 8:58:14 PM -->
+<GameData>
+	<Features>
+		<Delete FeatureType="FEATURE_COMET_LAKE"/>
+		<Row FeatureType="FEATURE_COMET_LAKE" Name="LOC_FEATURE_COMET_LAKE_NAME" Description="LOC_FEATURE_COMET_LAKE_DESCRIPTION" AntiquityPriority="1" Impassable="false"/>
+	</Features>
+	<Feature_YieldChanges>
+		<Row FeatureType="FEATURE_COMET_LAKE" YieldType="YIELD_FOOD" YieldChange="10"/>
+		<Row FeatureType="FEATURE_COMET_LAKE" YieldType="YIELD_PRODUCTION" YieldChange="10"/>
+		<Row FeatureType="FEATURE_COMET_LAKE" YieldType="YIELD_FAITH" YieldChange="10"/>
+		<Row FeatureType="FEATURE_COMET_LAKE" YieldType="YIELD_GOLD" YieldChange="10"/>
+		<Row FeatureType="FEATURE_COMET_LAKE" YieldType="YIELD_SCIENCE" YieldChange="10"/>
+	</Feature_YieldChanges>
+</GameData>
