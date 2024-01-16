@@ -31,7 +31,7 @@
 			<Text>天选之子</Text>
 		</Replace>
 		<Replace Tag="TRAIT_CHOSEN_ONE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>免疫所有天灾且领土内伤害+100%。</Text>
+			<Text>所有天灾不会对您造成伤害且对领土内的敌人伤害+100%。</Text>
 		</Replace>
 
 

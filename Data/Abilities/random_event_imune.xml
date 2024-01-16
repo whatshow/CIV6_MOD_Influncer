@@ -42,11 +42,63 @@
 			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
 		</Row>
 		<!-- 暴风雪 -->
+		<Row>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_BLIZZARD_SIGNIFICANT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_BLIZZARD_CRIPPLING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
+		</Row>
 		<!-- 沙尘暴 -->
+		<Row>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_DUST_STORM_GRADIENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_DUST_STORM_HABOOB</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
+		</Row>
 		<!-- 龙卷风 -->
+		<Row>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_TORNADO_FAMILY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_TORNADO_OUTBREAK</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
+		</Row>
 		<!-- 台风 -->
+		<Row>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_HURRICANE_CAT_4</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_HURRICANE_CAT_5</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
+		</Row>
 		<!-- 核事故 -->
+		<Row>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_NUCLEAR_ACCIDENT_MINOR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_NUCLEAR_ACCIDENT_MAJOR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_NUCLEAR_ACCIDENT_CATASTROPHIC</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
+		</Row>
 		<!-- 干旱 -->
+		<Row>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_DROUGHT_MAJOR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_DROUGHT_EXTREME</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
+		</Row>
 
 		<!-- 天启模式- -->
 
@@ -101,14 +153,78 @@
 			<Name>RandomEventType</Name>
 			<Value>RANDOM_EVENT_VOLCANO_MEGACOLOSSAL</Value>
 		</Row>
-
 		<!-- 暴风雪 -->
+		<Row>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_BLIZZARD_SIGNIFICANT</ModifierId>
+			<Name>RandomEventType</Name>
+			<Value>RANDOM_EVENT_BLIZZARD_SIGNIFICANT</Value>
+		</Row>
+		<Row>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_BLIZZARD_CRIPPLING</ModifierId>
+			<Name>RandomEventType</Name>
+			<Value>RANDOM_EVENT_BLIZZARD_CRIPPLING</Value>
+		</Row>
 		<!-- 沙尘暴 -->
+		<Row>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_DUST_STORM_GRADIENT</ModifierId>
+			<Name>RandomEventType</Name>
+			<Value>RANDOM_EVENT_DUST_STORM_GRADIENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_DUST_STORM_HABOOB</ModifierId>
+			<Name>RandomEventType</Name>
+			<Value>RANDOM_EVENT_DUST_STORM_HABOOB</Value>
+		</Row>
 		<!-- 龙卷风 -->
+		<Row>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_TORNADO_FAMILY</ModifierId>
+			<Name>RandomEventType</Name>
+			<Value>RANDOM_EVENT_TORNADO_FAMILY</Value>
+		</Row>
+		<Row>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_TORNADO_OUTBREAK</ModifierId>
+			<Name>RandomEventType</Name>
+			<Value>RANDOM_EVENT_TORNADO_OUTBREAK</Value>
+		</Row>
 		<!-- 台风 -->
+		<Row>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_HURRICANE_CAT_4</ModifierId>
+			<Name>RandomEventType</Name>
+			<Value>RANDOM_EVENT_HURRICANE_CAT_4</Value>
+		</Row>
+		<Row>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_HURRICANE_CAT_5</ModifierId>
+			<Name>RandomEventType</Name>
+			<Value>RANDOM_EVENT_HURRICANE_CAT_5</Value>
+		</Row>
 		<!-- 核事故 -->
+		<Row>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_NUCLEAR_ACCIDENT_MINOR</ModifierId>
+			<Name>RandomEventType</Name>
+			<Value>RANDOM_EVENT_NUCLEAR_ACCIDENT_MINOR</Value>
+		</Row>
+		<Row>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_NUCLEAR_ACCIDENT_MAJOR</ModifierId>
+			<Name>RandomEventType</Name>
+			<Value>RANDOM_EVENT_NUCLEAR_ACCIDENT_MAJOR</Value>
+		</Row>
+		<Row>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_NUCLEAR_ACCIDENT_CATASTROPHIC</ModifierId>
+			<Name>RandomEventType</Name>
+			<Value>RANDOM_EVENT_NUCLEAR_ACCIDENT_CATASTROPHIC</Value>
+		</Row>
 		<!-- 干旱 -->
-		
+		<Row>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_DROUGHT_MAJOR</ModifierId>
+			<Name>RandomEventType</Name>
+			<Value>RANDOM_EVENT_DROUGHT_MAJOR</Value>
+		</Row>
+		<Row>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_DROUGHT_EXTREME</ModifierId>
+			<Name>RandomEventType</Name>
+			<Value>RANDOM_EVENT_DROUGHT_EXTREME</Value>
+		</Row>
+
 		<!-- 天启模式- -->
 		
     </ModifierArguments>
