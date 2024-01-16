@@ -7,6 +7,10 @@
 		</Row>
     </TraitModifiers>
     <Modifiers>
+		<Row>
+			<ModifierId>TRAIT_MILITANCY_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_MOVEMENT</ModifierType>
+		</Row>
         <Row>
 			<ModifierId>TRAIT_CIVILENG_EXTRA_TECH</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY</ModifierType>
@@ -20,6 +24,12 @@
 		</Row>
     </Modifiers>
     <ModifierArguments>
+		<!-- 穷兵黩武 -->
+		<Row>
+			<ModifierId>TRAIT_MILITANCY_MOVEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
         <Row>
 			<ModifierId>TRAIT_CIVILENG_EXTRA_TECH</ModifierId>
 			<Name>TechType</Name>
