@@ -3,63 +3,113 @@
     <Modifiers>
         <!-- 免疫洪水 -->
         <Row>
-			<ModifierId>WS_AB_AVOID_MODERATE_FLOOD</ModifierId>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_MODERATE_FLOOD</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
 		</Row>
         <Row>
-			<ModifierId>WS_AB_AVOID_MAJOR_FLOOD</ModifierId>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_MAJOR_FLOOD</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
 		</Row>
         <Row>
-			<ModifierId>WS_AB_AVOID_THOUSAND_FLOOD</ModifierId>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_THOUSAND_FLOOD</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
 		</Row>
         <!-- 免疫乞力马扎罗山 -->
         <Row>
-			<ModifierId>WS_AB_AVOID_KILIMANJARO_GENTLE</ModifierId>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_KILIMANJARO_GENTLE</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
 		</Row>
         <Row>
-			<ModifierId>WS_AB_AVOID_KILIMANJARO_CATASTROPHIC</ModifierId>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_KILIMANJARO_CATASTROPHIC</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
 		</Row>
+		<!-- 维苏威火山 -->
         <Row>
-			<ModifierId>WS_AB_AVOID_VESUVIUS_MEGACOLOSSAL</ModifierId>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_VESUVIUS_MEGACOLOSSAL</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
 		</Row>
+		<!-- 火山 -->
+		<Row>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_VOLCANO_GENTLE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_VOLCANO_CATASTROPHIC</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_VOLCANO_MEGACOLOSSAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
+		</Row>
+		<!-- 暴风雪 -->
+		<!-- 沙尘暴 -->
+		<!-- 龙卷风 -->
+		<!-- 台风 -->
+		<!-- 核事故 -->
+		<!-- 干旱 -->
+
+		<!-- 天启模式- -->
+
     </Modifiers>
     <ModifierArguments>
          <!-- 免疫洪水 -->
         <Row>
-			<ModifierId>WS_AB_AVOID_MODERATE_FLOOD</ModifierId>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_MODERATE_FLOOD</ModifierId>
 			<Name>RandomEventType</Name>
 			<Value>RANDOM_EVENT_FLOOD_MODERATE</Value>
 		</Row>
 		<Row>
-			<ModifierId>WS_AB_AVOID_MAJOR_FLOOD</ModifierId>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_MAJOR_FLOOD</ModifierId>
 			<Name>RandomEventType</Name>
 			<Value>RANDOM_EVENT_FLOOD_MAJOR</Value>
 		</Row>
 		<Row>
-			<ModifierId>WS_AB_AVOID_THOUSAND_FLOOD</ModifierId>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_THOUSAND_FLOOD</ModifierId>
 			<Name>RandomEventType</Name>
 			<Value>RANDOM_EVENT_FLOOD_1000_YEAR</Value>
 		</Row>
         <!-- 免疫乞力马扎罗山 -->
         <Row>
-			<ModifierId>WS_AB_AVOID_KILIMANJARO_GENTLE</ModifierId>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_KILIMANJARO_GENTLE</ModifierId>
 			<Name>RandomEventType</Name>
 			<Value>RANDOM_EVENT_KILIMANJARO_GENTLE</Value>
 		</Row>
         <Row>
-			<ModifierId>WS_AB_AVOID_KILIMANJARO_CATASTROPHIC</ModifierId>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_KILIMANJARO_CATASTROPHIC</ModifierId>
 			<Name>RandomEventType</Name>
 			<Value>RANDOM_EVENT_KILIMANJARO_CATASTROPHIC</Value>
 		</Row>
+		<!-- 维苏威火山 -->
         <Row>
-			<ModifierId>WS_AB_AVOID_VESUVIUS_MEGACOLOSSAL</ModifierId>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_VESUVIUS_MEGACOLOSSAL</ModifierId>
 			<Name>RandomEventType</Name>
 			<Value>RANDOM_EVENT_VESUVIUS_MEGACOLOSSAL</Value>
 		</Row>
+		<!-- 火山 -->
+		<Row>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_VOLCANO_GENTLE</ModifierId>
+			<Name>RandomEventType</Name>
+			<Value>RANDOM_EVENT_VOLCANO_GENTLE</Value>
+		</Row>
+		<Row>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_VOLCANO_CATASTROPHIC</ModifierId>
+			<Name>RandomEventType</Name>
+			<Value>RANDOM_EVENT_VOLCANO_CATASTROPHIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_VOLCANO_MEGACOLOSSAL</ModifierId>
+			<Name>RandomEventType</Name>
+			<Value>RANDOM_EVENT_VOLCANO_MEGACOLOSSAL</Value>
+		</Row>
+
+		<!-- 暴风雪 -->
+		<!-- 沙尘暴 -->
+		<!-- 龙卷风 -->
+		<!-- 台风 -->
+		<!-- 核事故 -->
+		<!-- 干旱 -->
+		
+		<!-- 天启模式- -->
+		
     </ModifierArguments>
 </GameInfo>

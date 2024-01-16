@@ -107,6 +107,8 @@
 			<TraitType>TRAIT_HEGEMONISM</TraitType>
 			<ModifierId>TRAIT_HEGEMONISM_SPY_ADD</ModifierId>
 		</Row>
+		<!-- 天选之子 -->
+		<Row TraitType="TRAIT_CHOSEN_ONE" ModifierId="WS_AB_RANDOM_EVENT_IMUNE_MODERATE_FLOOD"/>
 	</TraitModifiers>
 	<Modifiers>
 		<!-- 穷兵黩武 -->
