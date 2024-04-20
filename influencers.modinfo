@@ -11,7 +11,8 @@
 		<CompatibleVersions>2.0</CompatibleVersions>
 	</Properties>
 	<InGameActions>
-		<UpdateDatabase id="QLXTX20_GAMEPLAY_DATA">
+		<UpdateDatabase id="WSInfluencerLeaders">
+			<File>Data/leader_liuxiu.xml</File>
 			<File>Data/leader_qin_alt.xml</File>
 		</UpdateDatabase>
 		<UpdateDatabase id="WSInfluencerCore">
@@ -43,6 +44,7 @@
 		<File>Data/Abilities/cities.xml</File>
 		<File>Data/Abilities/slots.xml</File>
 		<File>Data/Abilities/random_event_imune.xml</File>
+		<File>Data/leader_liuxiu.xml</File>
 		<File>Data/leader_qin_alt.xml</File>
 		<File>Data/ConfigData.xml</File>
 		<File>Text/civ_china_leader_qin_alt.xml</File>
