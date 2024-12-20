@@ -1,0 +1,42 @@
+<!-- <?xml version="1.0" encoding="utf-8"?>
+<Mod id="83ffeb62-d680-4e18-8ac9-f5693b49123f" version="1">
+	
+	<Properties>
+		<Name>LOC_USING_MODIFIERS_CH1_MOD_TITLE</Name>
+		<Teaser>LOC_USING_MODIFIERS_CH1_MOD_TEASER</Name>
+		<Description>LOC_USING_MODIFIERS_CH1_MOD_DESCRIPTION</Description>
+		<Authors>LOC_USING_MODIFIERS_CH1_AUTHORS</Authors>
+	</Properties>
+	
+	<Components>
+		<UpdateDatabase id="AUSTRALIA_MENZIES_GAMEPLAY_DATA">
+			<Items>
+				<File>Chapter1.sql</File>
+			</Items>
+		</UpdateDatabase>
+	</Components>
+	
+	<Files>
+		<File>Chapter1.sql</File>
+	</Files>
+	
+	<LocalizedText>
+		<Text id="LOC_USING_MODIFIERS_CH1_MOD_TITLE">
+			<en_US>Using Modifiers - Chapter 1: Creating and attaching modifiers</en_US>
+		</Text>
+		<Text id="LOC_USING_MODIFIERS_CH1_MOD_TEASER">
+			<en_US>Example mod created in Chapter 1 of NycholusV's 'Using Modifiers' guide.</en_US>
+		</Text>
+		<Text id="LOC_USING_MODIFIERS_CH1_MOD_DESCRIPTION">
+			<en_US>
+			[ICON_Bullet]The Stave Church (Norwegian unique building) grants a free missionary when built.[NEWLINE]
+			[ICON_Bullet]Pax Britannica (Victoria’s leader bonus) grants +10% Production in cities settled on foreign continents.[NEWLINE]
+			[ICON_Bullet]Increases the rate of border expansion universally by 50%.
+			</en_US>
+		</Text>
+		<Text id="LOC_USING_MODIFIERS_CH1_AUTHORS">
+			<en_US>NycholusV</en_US>
+		</Text>
+	</LocalizedText>
+	
+</Mod> -->

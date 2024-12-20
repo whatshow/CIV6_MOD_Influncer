@@ -12,7 +12,6 @@
 	</Properties>
 	<InGameActions>
 		<UpdateDatabase id="WSInfluencerLeaders">
-			<File>Data/leader_liuxiu.xml</File>
 			<File>Data/leader_qin_alt.xml</File>
 		</UpdateDatabase>
 		<UpdateDatabase id="WSInfluencerCore">
@@ -20,7 +19,9 @@
 			<File>Data/requirements.xml</File>
 			<File>Data/Abilities/units_kill_bonus.xml</File>
 			<File>Data/Abilities/cities.xml</File>
+			<!-- <File>Data/Abilities/district_imune_random_event.xml</File> -->
 			<File>Data/Abilities/slots.xml</File>
+			<File>Data/Abilities/spy.xml</File>
 			<File>Data/Abilities/random_event_imune.xml</File>
 		</UpdateDatabase>
 		<UpdateText id="WSInfluencerText">
@@ -42,9 +43,10 @@
 		<File>Data/requirements.xml</File>
 		<File>Data/Abilities/units_kill_bonus.xml</File>
 		<File>Data/Abilities/cities.xml</File>
+		<!-- <File>Data/Abilities/district_imune_random_event.xml</File> -->
 		<File>Data/Abilities/slots.xml</File>
+		<File>Data/Abilities/spy.xml</File>
 		<File>Data/Abilities/random_event_imune.xml</File>
-		<File>Data/leader_liuxiu.xml</File>
 		<File>Data/leader_qin_alt.xml</File>
 		<File>Data/ConfigData.xml</File>
 		<File>Text/civ_china_leader_qin_alt.xml</File>

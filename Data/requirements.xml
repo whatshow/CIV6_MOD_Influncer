@@ -59,7 +59,7 @@
         </Row>
 		<!-- TECH -->
 		<Row>
-			<RequirementId>TRAIT_HEGEMONISM_SPY_REQ_TECH_CURRENCY</RequirementId>
+			<RequirementId>WS_REQ_TECH_CURRENCY</RequirementId>
 			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
 		</Row>
 	</Requirements>
@@ -138,7 +138,7 @@
         </Row>
 		<!-- Tech -->
 		<Row>
-            <RequirementId>TRAIT_HEGEMONISM_SPY_REQ_TECH_CURRENCY</RequirementId>
+            <RequirementId>WS_REQ_TECH_CURRENCY</RequirementId>
             <Name>TechnologyType</Name>
             <Value>TECH_CURRENCY</Value>
         </Row>

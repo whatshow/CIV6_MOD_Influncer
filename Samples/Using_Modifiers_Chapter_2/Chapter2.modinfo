@@ -1,0 +1,41 @@
+<!-- <?xml version="1.0" encoding="utf-8"?>
+<Mod id="d2681274-806f-4a85-ac8a-e41b9f51197a" version="1">
+	
+	<Properties>
+		<Name>LOC_USING_MODIFIERS_CH2_MOD_TITLE</Name>
+		<Teaser>LOC_USING_MODIFIERS_CH2_MOD_TEASER</Name>
+		<Description>LOC_USING_MODIFIERS_CH2_MOD_DESCRIPTION</Description>
+		<Authors>LOC_USING_MODIFIERS_CH2_AUTHORS</Authors>
+	</Properties>
+	
+	<Components>
+		<UpdateDatabase id="LOC_USING_MODIFIERS_CH2_GAMEPLAY_DATA">
+			<Items>
+				<File>Chapter2.sql</File>
+			</Items>
+		</UpdateDatabase>
+	</Components>
+	
+	<Files>
+		<File>Chapter2.sql</File>
+	</Files>
+	
+	<LocalizedText>
+		<Text id="LOC_USING_MODIFIERS_CH2_MOD_TITLE">
+			<en_US>Chapter 2: Dynamic modifiers, effects, collections and arguments</en_US>
+		</Text>
+		<Text id="LOC_USING_MODIFIERS_CH2_MOD_TEASER">
+			<en_US>Example mod created in Chapter 2 of NycholusV's 'Using Modifiers' guide.</en_US>
+		</Text>
+		<Text id="LOC_USING_MODIFIERS_CH2_MOD_DESCRIPTION">
+			<en_US>
+			[ICON_Bullet]Founding Fathers (America's special ability) increases the rate of border expansion by 20% in all cities.[NEWLINE]
+			[ICON_Bullet]Mimar Sinan's (Great Engineer) ability instantly grants +4 Population.
+			</en_US>
+		</Text>
+		<Text id="LOC_USING_MODIFIERS_CH2_AUTHORS">
+			<en_US>NycholusV</en_US>
+		</Text>
+	</LocalizedText>
+	
+</Mod> -->

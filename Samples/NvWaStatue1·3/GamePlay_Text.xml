@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<GameData>
+  <LocalizedText>
+    <!-- The name of the building. -->
+    <Row Tag="LOC_BUILDING_NVWA_STATUE_NAME" Language="en_US">
+      <Text>NvWa Statue</Text>
+    </Row>
+
+    <Row Tag="LOC_BUILDING_NVWA_STATUE_NAME" Language="zh_Hans_CN">
+      <Text>女娲神像</Text>
+    </Row>
+  </LocalizedText>
+</GameData>

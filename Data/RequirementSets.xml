@@ -10,11 +10,7 @@
             <RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
         </Row>
 		<Row>
-            <RequirementSetId>TRAIT_HEGEMONISM_SPY_REQ</RequirementSetId>
-            <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
-        </Row>
-		<Row>
-            <RequirementSetId>TRAIT_HEGEMONISM_SPY_ADD_REQ</RequirementSetId>
+            <RequirementSetId>WS_REQSET_TECH_CURRENCY</RequirementSetId>
             <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
         </Row>
 	</RequirementSets>
@@ -79,16 +75,8 @@
         </Row>
 		<!-- Tech -->
 		<Row>
-            <RequirementSetId>TRAIT_HEGEMONISM_SPY_REQ</RequirementSetId>
-            <RequirementId>TRAIT_HEGEMONISM_SPY_REQ_TECH_CURRENCY</RequirementId>
-        </Row>
-		<Row>
-            <RequirementSetId>TRAIT_HEGEMONISM_SPY_ADD_REQ</RequirementSetId>
-            <RequirementId>TRAIT_HEGEMONISM_SPY_REQ_TECH_CURRENCY</RequirementId>
-        </Row>
-		<Row>
-            <RequirementSetId>TRAIT_HEGEMONISM_SPY_ADD_REQ</RequirementSetId>
-            <RequirementId>REQUIRES_CAPITAL_CITY</RequirementId>
+            <RequirementSetId>WS_REQSET_TECH_CURRENCY</RequirementSetId>
+            <RequirementId>WS_REQ_TECH_CURRENCY</RequirementId>
         </Row>
 	</RequirementSetRequirements>
 </GameInfo>

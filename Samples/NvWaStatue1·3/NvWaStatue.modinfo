@@ -1,0 +1,51 @@
+<!-- <?xml version="1.0" encoding="utf-8"?>
+<Mod id="2975a114-e61b-ea14-6d99-1135ed3cb14c" version="1">
+  <Properties>
+    <Name>女娲神像</Name>
+    <Description>
+（注意：唯一奇观，请开局直接购买，谨防AI抢夺！！！）
+您历经了千折万磨，穿越了古今岁月，带领着您的国民来到这个贯穿有无始终的世界，思考再三，您最终选择在此地建立城市，延续华夏民族的血脉与文明。这时，您受到了来自伟大女神的启迪，您的城市矗立起了一座沟通天地的神像！！！
+	
+女娲神像代表着华夏最伟大的母神女娲，通过神像可以知道大神女娲当年那三界极致动人的颜色，但大神的对芸芸众生的慈爱与威严更是令人不敢直视。千百年来，华夏民族和而不同、求同存异，以和为贵、兼容并蓄的理念一直适用于所有的国家、民族。女娲神像拥有着令一个蒙昧文明和平崛起的能力，一个文明想要跻身世界之巅，只需不断超越自我，而无需胁迫他人。
+
+恭喜，您那来自与女娲大神的潜藏力量，终被激活。
+1.始终唯一：首都增加7通用巨作槽、7民居、3宜居度、7通用巨作槽，3信仰，5产能，同时提供10点外部防御力及（城墙）防御值。
+
+2.女娲血脉：最初人族的血脉，赋予每个人口都能勇敢对外开拓，自发为城市带来食物、产能、金币、信仰和文化的收益。
+
+3.生产热情：城市生产建造者时产能增加200%，建造者可建造次数+2，并可以消耗建造次数增加15%的奇观或区域建造进程。
+
+4.大地之母：增加两个通用政策槽位，城市无法被围攻，每个城市增加777住房，有驻军单位的城市+77宜居度。
+
+5.万灵之宗：市民对城市的忠诚度+77，城邦影响力+7，外交支持+7，发现奇观+1遗物。
+
+6.抟土造人：神像降临，解锁制陶术(抟土），生产移民单位时+100%生产力。
+
+7.炼石补天：神像降临，解锁采矿业（炼石）、占星术（补天）。
+
+愿您拥有雷霆手段，更拥有菩萨心肠。
+	</Description>
+    <CustomProperties></CustomProperties>
+    <Teaser>万灵之宗，大地之母。</Teaser>
+    <Authors>JianGe</Authors>
+    <SpecialThanks>JianGe</SpecialThanks>
+    <CompatibleVersions>1.3.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions/>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <File>Gameplay_Data.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="Icons">
+      <File>Gameplay_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateText id="Text">
+      <File>Gameplay_Text.xml</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>Gameplay_Data.xml</File>
+    <File>Gameplay_Icons.xml</File>
+    <File>Gameplay_Text.xml</File>
+  </Files>
+</Mod> -->

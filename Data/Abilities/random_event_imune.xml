@@ -1,178 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GameInfo>
     <Modifiers>
-        <!-- 免疫洪水 -->
-        <Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_MODERATE_FLOOD</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
-		</Row>
-        <Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_MAJOR_FLOOD</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
-		</Row>
-        <Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_THOUSAND_FLOOD</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
-		</Row>
+        
         <!-- 免疫乞力马扎罗山 -->
-        <Row>
+        <!-- <Row>
 			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_KILIMANJARO_GENTLE</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
+			<ModifierType>MODIFIER_GOVERNOR_ADJUST_PREVENET_STRUCTURAL_DAMAGE</ModifierType>
 		</Row>
         <Row>
 			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_KILIMANJARO_CATASTROPHIC</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
-		</Row>
+			<ModifierType>MODIFIER_GOVERNOR_ADJUST_PREVENET_STRUCTURAL_DAMAGE</ModifierType>
+		</Row> -->
 		<!-- 维苏威火山 -->
         <!-- <Row>
 			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_VESUVIUS_MEGACOLOSSAL</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
+			<ModifierType>MODIFIER_GOVERNOR_ADJUST_PREVENET_STRUCTURAL_DAMAGE</ModifierType>
 		</Row> -->
 		<!-- 火山 -->
-		<Row>
+		<!-- <Row>
 			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_VOLCANO_GENTLE</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
+			<ModifierType>MODIFIER_GOVERNOR_ADJUST_PREVENET_STRUCTURAL_DAMAGE</ModifierType>
 		</Row>
 		<Row>
 			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_VOLCANO_CATASTROPHIC</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
+			<ModifierType>MODIFIER_GOVERNOR_ADJUST_PREVENET_STRUCTURAL_DAMAGE</ModifierType>
 		</Row>
 		<Row>
 			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_VOLCANO_MEGACOLOSSAL</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
-		</Row>
+			<ModifierType>MODIFIER_GOVERNOR_ADJUST_PREVENET_STRUCTURAL_DAMAGE</ModifierType>
+		</Row> -->
+
 		<!-- 暴风雪 -->
 		<!-- <Row>
 			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_BLIZZARD_SIGNIFICANT</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_RANDOM_EVENT_NO_UNIT_DAMAGE</ModifierType>
 		</Row>
 		<Row>
 			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_BLIZZARD_CRIPPLING</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_RANDOM_EVENT_NO_UNIT_DAMAGE</ModifierType>
 		</Row> -->
 		<!-- 沙尘暴 -->
 		<!-- <Row>
 			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_DUST_STORM_GRADIENT</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_RANDOM_EVENT_NO_UNIT_DAMAGE</ModifierType>
 		</Row>
 		<Row>
 			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_DUST_STORM_HABOOB</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_RANDOM_EVENT_NO_UNIT_DAMAGE</ModifierType>
 		</Row> -->
 		<!-- 龙卷风 -->
 		<!-- <Row>
 			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_TORNADO_FAMILY</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_RANDOM_EVENT_NO_UNIT_DAMAGE</ModifierType>
 		</Row>
 		<Row>
 			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_TORNADO_OUTBREAK</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_RANDOM_EVENT_NO_UNIT_DAMAGE</ModifierType>
 		</Row> -->
 		<!-- 台风 -->
-		<!-- <Row>
+		<Row>
 			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_HURRICANE_CAT_4</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_RANDOM_EVENT_NO_UNIT_DAMAGE</ModifierType>
 		</Row>
 		<Row>
 			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_HURRICANE_CAT_5</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
-		</Row> -->
-		<!-- 核事故 -->
-		<!-- <Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_NUCLEAR_ACCIDENT_MINOR</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_RANDOM_EVENT_NO_UNIT_DAMAGE</ModifierType>
 		</Row>
-		<Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_NUCLEAR_ACCIDENT_MAJOR</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_NUCLEAR_ACCIDENT_CATASTROPHIC</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
-		</Row> -->
-		<!-- 干旱 -->
-		<!-- <Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_DROUGHT_MAJOR</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_DROUGHT_EXTREME</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
-		</Row> -->
-
-		<!-- 天启模式 -->
-		<!-- 天启模式 - 新增灾害 -->
-		<!-- <Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_COMET_STRIKE</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_SOLAR_FLARE</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_METEOR_SHOWER</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
-		</Row> -->
-		<!-- 天启模式 - 预言者触发事件 -->
-		<Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_FLOOD_TRIGGERED</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_KILIMANJARO_TRIGGERED</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
-		</Row>
-		<!-- <Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_VESUVIUS_TRIGGERED</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
-		</Row>-->
-		<Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_VOLCANO_TRIGGERED</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
-		</Row>
-		<!-- <Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_BLIZZARD_TRIGGERED</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_DUST_STORM_TRIGGERED</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_JUNGLE_FIRE_TRIGGERED</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_FOREST_FIRE_TRIGGERED</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_COMET_STRIKE_TARGETED</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
-		</Row> -->
-		
 
     </Modifiers>
     <ModifierArguments>
-         <!-- 免疫洪水 -->
-        <Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_MODERATE_FLOOD</ModifierId>
-			<Name>RandomEventType</Name>
-			<Value>RANDOM_EVENT_FLOOD_MODERATE</Value>
-		</Row>
-		<Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_MAJOR_FLOOD</ModifierId>
-			<Name>RandomEventType</Name>
-			<Value>RANDOM_EVENT_FLOOD_MAJOR</Value>
-		</Row>
-		<Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_THOUSAND_FLOOD</ModifierId>
-			<Name>RandomEventType</Name>
-			<Value>RANDOM_EVENT_FLOOD_1000_YEAR</Value>
-		</Row>
         <!-- 免疫乞力马扎罗山 -->
-        <Row>
+        <!-- <Row>
 			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_KILIMANJARO_GENTLE</ModifierId>
 			<Name>RandomEventType</Name>
 			<Value>RANDOM_EVENT_KILIMANJARO_GENTLE</Value>
@@ -181,7 +79,7 @@
 			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_KILIMANJARO_CATASTROPHIC</ModifierId>
 			<Name>RandomEventType</Name>
 			<Value>RANDOM_EVENT_KILIMANJARO_CATASTROPHIC</Value>
-		</Row>
+		</Row> -->
 		<!-- 维苏威火山 -->
         <!-- <Row>
 			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_VESUVIUS_MEGACOLOSSAL</ModifierId>
@@ -189,7 +87,7 @@
 			<Value>RANDOM_EVENT_VESUVIUS_MEGACOLOSSAL</Value>
 		</Row> -->
 		<!-- 火山 -->
-		<Row>
+		<!-- <Row>
 			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_VOLCANO_GENTLE</ModifierId>
 			<Name>RandomEventType</Name>
 			<Value>RANDOM_EVENT_VOLCANO_GENTLE</Value>
@@ -203,7 +101,7 @@
 			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_VOLCANO_MEGACOLOSSAL</ModifierId>
 			<Name>RandomEventType</Name>
 			<Value>RANDOM_EVENT_VOLCANO_MEGACOLOSSAL</Value>
-		</Row>
+		</Row> -->
 		<!-- 暴风雪 -->
 		<!-- <Row>
 			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_BLIZZARD_SIGNIFICANT</ModifierId>
@@ -211,9 +109,19 @@
 			<Value>RANDOM_EVENT_BLIZZARD_SIGNIFICANT</Value>
 		</Row>
 		<Row>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_BLIZZARD_SIGNIFICANT</ModifierId>
+			<Name>NoDamage</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
 			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_BLIZZARD_CRIPPLING</ModifierId>
 			<Name>RandomEventType</Name>
 			<Value>RANDOM_EVENT_BLIZZARD_CRIPPLING</Value>
+		</Row>
+		<Row>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_BLIZZARD_CRIPPLING</ModifierId>
+			<Name>NoDamage</Name>
+			<Value>true</Value>
 		</Row> -->
 		<!-- 沙尘暴 -->
 		<!-- <Row>
@@ -222,9 +130,19 @@
 			<Value>RANDOM_EVENT_DUST_STORM_GRADIENT</Value>
 		</Row>
 		<Row>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_DUST_STORM_GRADIENT</ModifierId>
+			<Name>NoDamage</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
 			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_DUST_STORM_HABOOB</ModifierId>
 			<Name>RandomEventType</Name>
 			<Value>RANDOM_EVENT_DUST_STORM_HABOOB</Value>
+		</Row>
+		<Row>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_DUST_STORM_HABOOB</ModifierId>
+			<Name>NoDamage</Name>
+			<Value>true</Value>
 		</Row> -->
 		<!-- 龙卷风 -->
 		<!-- <Row>
@@ -233,113 +151,40 @@
 			<Value>RANDOM_EVENT_TORNADO_FAMILY</Value>
 		</Row>
 		<Row>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_TORNADO_FAMILY</ModifierId>
+			<Name>NoDamage</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
 			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_TORNADO_OUTBREAK</ModifierId>
 			<Name>RandomEventType</Name>
 			<Value>RANDOM_EVENT_TORNADO_OUTBREAK</Value>
+		</Row>
+		<Row>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_TORNADO_OUTBREAK</ModifierId>
+			<Name>NoDamage</Name>
+			<Value>true</Value>
 		</Row> -->
 		<!-- 台风 -->
-		<!-- <Row>
+		<Row>
 			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_HURRICANE_CAT_4</ModifierId>
 			<Name>RandomEventType</Name>
 			<Value>RANDOM_EVENT_HURRICANE_CAT_4</Value>
 		</Row>
 		<Row>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_HURRICANE_CAT_4</ModifierId>
+			<Name>NoDamage</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
 			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_HURRICANE_CAT_5</ModifierId>
 			<Name>RandomEventType</Name>
 			<Value>RANDOM_EVENT_HURRICANE_CAT_5</Value>
-		</Row> -->
-		<!-- 核事故 -->
-		<!-- <Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_NUCLEAR_ACCIDENT_MINOR</ModifierId>
-			<Name>RandomEventType</Name>
-			<Value>RANDOM_EVENT_NUCLEAR_ACCIDENT_MINOR</Value>
 		</Row>
 		<Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_NUCLEAR_ACCIDENT_MAJOR</ModifierId>
-			<Name>RandomEventType</Name>
-			<Value>RANDOM_EVENT_NUCLEAR_ACCIDENT_MAJOR</Value>
+			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_HURRICANE_CAT_5</ModifierId>
+			<Name>NoDamage</Name>
+			<Value>true</Value>
 		</Row>
-		<Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_NUCLEAR_ACCIDENT_CATASTROPHIC</ModifierId>
-			<Name>RandomEventType</Name>
-			<Value>RANDOM_EVENT_NUCLEAR_ACCIDENT_CATASTROPHIC</Value>
-		</Row> -->
-		<!-- 干旱 -->
-		<!-- <Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_DROUGHT_MAJOR</ModifierId>
-			<Name>RandomEventType</Name>
-			<Value>RANDOM_EVENT_DROUGHT_MAJOR</Value>
-		</Row>
-		<Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_DROUGHT_EXTREME</ModifierId>
-			<Name>RandomEventType</Name>
-			<Value>RANDOM_EVENT_DROUGHT_EXTREME</Value>
-		</Row> -->
-
-		<!-- 天启模式- -->
-		<!-- 天启模式 - 新增灾害 -->
-		<!-- <Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_COMET_STRIKE</ModifierId>
-			<Name>RandomEventType</Name>
-			<Value>RANDOM_EVENT_COMET_STRIKE</Value>
-		</Row>
-		<Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_SOLAR_FLARE</ModifierId>
-			<Name>RandomEventType</Name>
-			<Value>RANDOM_EVENT_SOLAR_FLARE</Value>
-		</Row>
-		<Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_METEOR_SHOWER</ModifierId>
-			<Name>RandomEventType</Name>
-			<Value>RANDOM_EVENT_METEOR_SHOWER</Value>
-		</Row> -->
-		<!-- 天启模式 - 预言者触发事件 -->
-		<Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_FLOOD_TRIGGERED</ModifierId>
-			<Name>RandomEventType</Name>
-			<Value>RANDOM_EVENT_FLOOD_TRIGGERED</Value>
-		</Row>
-		<Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_KILIMANJARO_TRIGGERED</ModifierId>
-			<Name>RandomEventType</Name>
-			<Value>RANDOM_EVENT_KILIMANJARO_TRIGGERED</Value>
-		</Row>
-		<!-- <Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_VESUVIUS_TRIGGERED</ModifierId>
-			<Name>RandomEventType</Name>
-			<Value>RANDOM_EVENT_VESUVIUS_TRIGGERED</Value>
-		</Row>-->
-		<Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_VOLCANO_TRIGGERED</ModifierId>
-			<Name>RandomEventType</Name>
-			<Value>RANDOM_EVENT_VOLCANO_TRIGGERED</Value>
-		</Row>
-		<!-- <Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_BLIZZARD_TRIGGERED</ModifierId>
-			<Name>RandomEventType</Name>
-			<Value>RANDOM_EVENT_BLIZZARD_TRIGGERED</Value>
-		</Row>
-		<Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_DUST_STORM_TRIGGERED</ModifierId>
-			<Name>RandomEventType</Name>
-			<Value>RANDOM_EVENT_DUST_STORM_TRIGGERED</Value>
-		</Row>
-		<Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_JUNGLE_FIRE_TRIGGERED</ModifierId>
-			<Name>RandomEventType</Name>
-			<Value>RANDOM_EVENT_JUNGLE_FIRE_TRIGGERED</Value>
-		</Row>
-		<Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_FOREST_FIRE_TRIGGERED</ModifierId>
-			<Name>RandomEventType</Name>
-			<Value>RANDOM_EVENT_FOREST_FIRE_TRIGGERED</Value>
-		</Row>
-		<Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_COMET_STRIKE_TARGETED</ModifierId>
-			<Name>RandomEventType</Name>
-			<Value>RANDOM_EVENT_COMET_STRIKE_TARGETED</Value>
-		</Row> -->
-
-		
     </ModifierArguments>
 </GameInfo>

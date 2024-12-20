@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameInfo>
+	<!-- 注册能力种类 -->
+	<Types>
+		<!-- 注册能力种类——能力 -->
+		<Row Type="DISTRICT_DISTRICTS_IMUNE_RANDOM_EVENT" Kind="KIND_TRAIT"/>
+		<!-- 注册能力种类——区域 -->
+		<Row Type="DISTRICT_HOLY_SITE_IMUNE_RANDOM_EVENT" Kind="KIND_DISTRICT"/>
+	</Types>
+	<!-- 区域——置换 -->
+	<DistrictReplaces>
+		<Row CivUniqueDistrictType="DISTRICT_HOLY_SITE_IMUNE_RANDOM_EVENT" ReplacesDistrictType="DISTRICT_HOLY_SITE"/>
+	</DistrictReplaces>
+	<!-- 区域——声明 & 绑定改能力到 TRAIT_CHOSEN_ONE -->
+	<Districts>
+		<!-- <Row DistrictType="DISTRICT_HOLY_SITE_IMUNE_RANDOM_EVENT" Name="LOC_DISTRICT_HOLY_SITE_NAME" Description="LOC_DISTRICT_HOLY_SITE_DESCRIPTION" PrereqTech="TECH_ASTROLOGY" PlunderType="PLUNDER_FAITH" PlunderAmount="25" AdvisorType="ADVISOR_RELIGIOUS" Cost="54" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="40" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" AllowsHolyCity="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" Appeal="1" CityStrengthModifier="2" TraitType="TRAIT_CHOSEN_ONE"/>
+	 -->
+		<Row DistrictType="DISTRICT_HOLY_SITE_IMUNE_RANDOM_EVENT" Name="LOC_DISTRICT_HOLY_SITE_NAME" Description="LOC_DISTRICT_HOLY_SITE_DESCRIPTION" PrereqTech="TECH_ASTROLOGY" PlunderType="PLUNDER_FAITH" PlunderAmount="25" AdvisorType="ADVISOR_RELIGIOUS" Cost="54" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="40" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" AllowsHolyCity="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" Appeal="1" CityStrengthModifier="2"/>
+	</Districts>
+	<!-- 区域——邻接加成 -->
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_HOLY_SITE_IMUNE_RANDOM_EVENT" YieldChangeId="NaturalWonder_Faith"/>
+		<Row DistrictType="DISTRICT_HOLY_SITE_IMUNE_RANDOM_EVENT" YieldChangeId="Mountain_Faith1"/>
+		<Row DistrictType="DISTRICT_HOLY_SITE_IMUNE_RANDOM_EVENT" YieldChangeId="Mountain_Faith2"/>
+		<Row DistrictType="DISTRICT_HOLY_SITE_IMUNE_RANDOM_EVENT" YieldChangeId="Mountain_Faith3"/>
+		<Row DistrictType="DISTRICT_HOLY_SITE_IMUNE_RANDOM_EVENT" YieldChangeId="Mountain_Faith4"/>
+		<Row DistrictType="DISTRICT_HOLY_SITE_IMUNE_RANDOM_EVENT" YieldChangeId="Mountain_Faith5"/>
+		<Row DistrictType="DISTRICT_HOLY_SITE_IMUNE_RANDOM_EVENT" YieldChangeId="Forest_Faith"/>
+		<Row DistrictType="DISTRICT_HOLY_SITE_IMUNE_RANDOM_EVENT" YieldChangeId="District_Faith"/>
+	</District_Adjacencies>
+	<!-- 区域——伟人点数 -->
+	<District_GreatPersonPoints>
+		<Row DistrictType="DISTRICT_HOLY_SITE_IMUNE_RANDOM_EVENT" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
+	</District_GreatPersonPoints>
+	<!-- 区域——贸易加成 -->
+	<District_TradeRouteYields>
+		<Row DistrictType="DISTRICT_HOLY_SITE_IMUNE_RANDOM_EVENT" YieldType="YIELD_FOOD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="0"/>
+		<Row DistrictType="DISTRICT_HOLY_SITE_IMUNE_RANDOM_EVENT" YieldType="YIELD_FAITH" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="1"/>
+	</District_TradeRouteYields>
+	<!-- 区域——市民工作加成 -->
+	<District_CitizenYieldChanges>
+		<Row DistrictType="DISTRICT_HOLY_SITE_IMUNE_RANDOM_EVENT" YieldType="YIELD_FAITH" YieldChange="2"/>
+	</District_CitizenYieldChanges>
+
+    <!-- <TraitModifiers>
+        <Row>
+			<TraitType>TRAIT_CIVILIZATION_DISTRICT_LAVRA</TraitType>
+			<ModifierId>TRAIT_EXPENDED_GREAT_PERSON_TILES</ModifierId>
+		</Row>
+        <Row>
+			<TraitType>TRAIT_CIVILIZATION_DISTRICT_LAVRA</TraitType>
+			<ModifierId>TRAIT_SHRINE_WRITING_POINTS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_DISTRICT_LAVRA</TraitType>
+			<ModifierId>TRAIT_TEMPLE_ARTIST_POINTS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_DISTRICT_LAVRA</TraitType>
+			<ModifierId>TRAIT_TIER3_MUSICIAN_POINTS</ModifierId>
+		</Row>
+    </TraitModifiers> -->
+
+</GameInfo>

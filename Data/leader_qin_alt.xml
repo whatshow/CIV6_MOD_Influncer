@@ -5,12 +5,14 @@
 		<Row Type="TRAIT_FOOLISH_SLAVERY" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_CIVILENG" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_HEGEMONISM" Kind="KIND_TRAIT"/>
+		<!-- <Row Type="TRAIT_CHOSEN_ONE" Kind="KIND_TRAIT"/> -->
 	</Types>
 	<Traits>
 		<Row TraitType="TRAIT_MILITANCY" Name="LOC_TRAIT_MILITANCY_NAME" Description="LOC_TRAIT_MILITANCY_DESCRIPTION"/>
 		<Row TraitType="TRAIT_FOOLISH_SLAVERY" Name="LOC_TRAIT_FOOLISH_SLAVERY_NAME" Description="LOC_TRAIT_FOOLISH_DESCRIPTION"/>
 		<Row TraitType="TRAIT_CIVILENG" Name="LOC_TRAIT_CIVILENG_NAME" Description="LOC_TRAIT_CIVILENG_DESCRIPTION"/>
 		<Row TraitType="TRAIT_HEGEMONISM" Name="TRAIT_HEGEMONISM_NAME" Description="TRAIT_HEGEMONISM_NAME_DESCRIPTION"/>
+		<!-- <Row TraitType="TRAIT_CHOSEN_ONE" Name="TRAIT_CHOSEN_ONE_NAME" Description="TRAIT_CHOSEN_ONE_DESCRIPTION"/> -->
 	</Traits>
 	<TraitModifiers>
 		<!-- 穷兵黩武 -->
@@ -45,6 +47,27 @@
 		<Row>
 			<TraitType>TRAIT_MILITANCY</TraitType>
 			<ModifierId>WS_AB_SLOT_MILITARY_PLUS1</ModifierId>
+		</Row>
+		<!-- 穷兵黩武 - 掠夺加科技 & 文化 -->
+		<Row>
+			<TraitType>TRAIT_MILITANCY</TraitType>
+			<ModifierId>TRAIT_LEADER_PILLAGE_SCIENCE_MINES</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_MILITANCY</TraitType>
+			<ModifierId>TRAIT_LEADER_PILLAGE_CULTURE_QUARRIES</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_MILITANCY</TraitType>
+			<ModifierId>TRAIT_LEADER_PILLAGE_CULTURE_PLANTATIONS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_MILITANCY</TraitType>
+			<ModifierId>TRAIT_LEADER_PILLAGE_CULTURE_PASTURES</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_MILITANCY</TraitType>
+			<ModifierId>TRAIT_LEADER_PILLAGE_CULTURE_CAMPS</ModifierId>
 		</Row>
 		<!-- 愚民奴役 -->
 		<Row>
@@ -99,12 +122,29 @@
 		</Row>
 		<Row>
 			<TraitType>TRAIT_HEGEMONISM</TraitType>
-			<ModifierId>TRAIT_HEGEMONISM_SPY_CAPACITY</ModifierId>
+			<ModifierId>WS_AB_SPY_CAPACITY_ADD_6_REQ_TECH_CURRENCY</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_HEGEMONISM</TraitType>
-			<ModifierId>TRAIT_HEGEMONISM_SPY_ADD</ModifierId>
+			<ModifierId>WS_AB_SPY_ADD_6_REQ_TECH_CURRENCY</ModifierId>
 		</Row>
+		<Row>
+			<TraitType>TRAIT_HEGEMONISM</TraitType>
+			<ModifierId>WS_AB_SPY_PROMOTED_LV2</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_HEGEMONISM</TraitType>
+			<ModifierId>WS_AB_SLOT_WILDCARD_PLUS1</ModifierId>
+		</Row>
+		<!-- 天选之子 -->
+		<!-- <Row TraitType="TRAIT_CHOSEN_ONE" ModifierId="WS_AB_RANDOM_EVENT_IMUNE_BLIZZARD_SIGNIFICANT"/>
+		<Row TraitType="TRAIT_CHOSEN_ONE" ModifierId="WS_AB_RANDOM_EVENT_IMUNE_BLIZZARD_CRIPPLING"/>
+		<Row TraitType="TRAIT_CHOSEN_ONE" ModifierId="WS_AB_RANDOM_EVENT_IMUNE_DUST_STORM_GRADIENT"/>
+		<Row TraitType="TRAIT_CHOSEN_ONE" ModifierId="WS_AB_RANDOM_EVENT_IMUNE_DUST_STORM_HABOOB"/>
+		<Row TraitType="TRAIT_CHOSEN_ONE" ModifierId="WS_AB_RANDOM_EVENT_IMUNE_TORNADO_FAMILY"/>
+		<Row TraitType="TRAIT_CHOSEN_ONE" ModifierId="WS_AB_RANDOM_EVENT_IMUNE_TORNADO_OUTBREAK"/>
+		<Row TraitType="TRAIT_CHOSEN_ONE" ModifierId="WS_AB_RANDOM_EVENT_IMUNE_HURRICANE_CAT_4"/>
+		<Row TraitType="TRAIT_CHOSEN_ONE" ModifierId=""/> -->
 	</TraitModifiers>
 	<Modifiers>
 		<!-- 穷兵黩武 -->
@@ -157,18 +197,8 @@
 			<ModifierId>TRAIT_HEGEMONISM_FAVOR</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_GOVERNMENT_SLOT_TYPE_GRANT_FAVOR</ModifierType>
 		</Row>
-		<Row>
-			<ModifierId>TRAIT_HEGEMONISM_SPY_CAPACITY</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_GRANT_SPY</ModifierType>
-			<OwnerRequirementsetId>TRAIT_HEGEMONISM_SPY_REQ</OwnerRequirementsetId>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_HEGEMONISM_SPY_ADD</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL</ModifierType>
-			<RunOnce>true</RunOnce>
-			<Permanent>true</Permanent>
-			<OwnerRequirementsetId>TRAIT_HEGEMONISM_SPY_ADD_REQ</OwnerRequirementsetId>
-		</Row>
+		
+		
 	</Modifiers>
 	<ModifierArguments>
 		<!-- 将敌人转化为工人 -->
@@ -232,27 +262,8 @@
 			<Name>Amount</Name>
 			<Value>5</Value>
 		</Row>
-		<!-- 间谍能力 -->
-		<Row>
-			<ModifierId>TRAIT_HEGEMONISM_SPY_CAPACITY</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_HEGEMONISM_SPY_ADD</ModifierId>
-			<Name>UnitType</Name>
-			<Value>UNIT_SPY</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_HEGEMONISM_SPY_ADD</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_HEGEMONISM_SPY_ADD</ModifierId>
-			<Name>AllowUniqueOverride</Name>
-			<Value>false</Value>
-		</Row>
+		
+		
 	</ModifierArguments>
 	
 
@@ -262,5 +273,6 @@
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_FOOLISH_SLAVERY"/>
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CIVILENG"/>
 		<Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_HEGEMONISM"/>
+		<!-- <Row LeaderType="LEADER_QIN_ALT" TraitType="TRAIT_CHOSEN_ONE"/> -->
 	</LeaderTraits>
 </GameInfo>
