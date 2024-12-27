@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Mod id="WSInfluencer" version="1">
 	<Properties>
-		<Name>风云人物包</Name>
+		<Name>LOC_MOD_NAME</Name>
 		<Teaser>增强已有领袖和文明，添加更多文明和领袖。</Teaser>
 		<Description>秦始皇（大一统）获得额外能力：穷兵黩武、愚民奴役、大兴土木、霸权主义。</Description>
 		<Authors>Zike Wang</Authors>
@@ -10,6 +10,12 @@
 		<EnabledAtStartup>1</EnabledAtStartup>
 		<CompatibleVersions>2.0</CompatibleVersions>
 	</Properties>
+	<LocalizedText>
+		<Text id="LOC_MOD_NAME">
+			<en_US>[ICON_RESOURCE_URANIUM][COLOR_RED]The Influencers[ENDCOLOR]</en_US>
+			<zh_Hans_CN>[COLOR_RED]风云人物包[ENDCOLOR]</zh_Hans_CN>
+		</Text>
+	</LocalizedText>
 	<InGameActions>
 		<UpdateDatabase id="WSInfluencerLeaders">
 			<File>Data/leader_qin_alt.xml</File>
@@ -17,9 +23,12 @@
 		<UpdateDatabase id="WSInfluencerCore">
 			<File>Data/RequirementSets.xml</File>
 			<File>Data/requirements.xml</File>
+			<File>Data/Abilities/units_attack.xml</File>
 			<File>Data/Abilities/units_kill_bonus.xml</File>
+			<File>Data/Abilities/units_movement.xml</File>
 			<File>Data/Abilities/cities.xml</File>
 			<!-- <File>Data/Abilities/district_imune_random_event.xml</File> -->
+			<File>Data/Abilities/sci.xml</File>
 			<File>Data/Abilities/slots.xml</File>
 			<File>Data/Abilities/spy.xml</File>
 			<File>Data/Abilities/random_event_imune.xml</File>
@@ -41,9 +50,12 @@
 	<Files>
 		<File>Data/RequirementSets.xml</File>
 		<File>Data/requirements.xml</File>
+		<File>Data/Abilities/units_attack.xml</File>
 		<File>Data/Abilities/units_kill_bonus.xml</File>
+		<File>Data/Abilities/units_movement.xml</File>
 		<File>Data/Abilities/cities.xml</File>
 		<!-- <File>Data/Abilities/district_imune_random_event.xml</File> -->
+		<File>Data/Abilities/sci.xml</File>
 		<File>Data/Abilities/slots.xml</File>
 		<File>Data/Abilities/spy.xml</File>
 		<File>Data/Abilities/random_event_imune.xml</File>

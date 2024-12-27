@@ -1,62 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GameInfo>
     <Modifiers>
-        
-        <!-- 免疫乞力马扎罗山 -->
-        <!-- <Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_KILIMANJARO_GENTLE</ModifierId>
-			<ModifierType>MODIFIER_GOVERNOR_ADJUST_PREVENET_STRUCTURAL_DAMAGE</ModifierType>
-		</Row>
-        <Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_KILIMANJARO_CATASTROPHIC</ModifierId>
-			<ModifierType>MODIFIER_GOVERNOR_ADJUST_PREVENET_STRUCTURAL_DAMAGE</ModifierType>
-		</Row> -->
-		<!-- 维苏威火山 -->
-        <!-- <Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_VESUVIUS_MEGACOLOSSAL</ModifierId>
-			<ModifierType>MODIFIER_GOVERNOR_ADJUST_PREVENET_STRUCTURAL_DAMAGE</ModifierType>
-		</Row> -->
-		<!-- 火山 -->
-		<!-- <Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_VOLCANO_GENTLE</ModifierId>
-			<ModifierType>MODIFIER_GOVERNOR_ADJUST_PREVENET_STRUCTURAL_DAMAGE</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_VOLCANO_CATASTROPHIC</ModifierId>
-			<ModifierType>MODIFIER_GOVERNOR_ADJUST_PREVENET_STRUCTURAL_DAMAGE</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_VOLCANO_MEGACOLOSSAL</ModifierId>
-			<ModifierType>MODIFIER_GOVERNOR_ADJUST_PREVENET_STRUCTURAL_DAMAGE</ModifierType>
-		</Row> -->
-
 		<!-- 暴风雪 -->
-		<!-- <Row>
+		<Row>
 			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_BLIZZARD_SIGNIFICANT</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_RANDOM_EVENT_NO_UNIT_DAMAGE</ModifierType>
 		</Row>
 		<Row>
 			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_BLIZZARD_CRIPPLING</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_RANDOM_EVENT_NO_UNIT_DAMAGE</ModifierType>
-		</Row> -->
+		</Row>
 		<!-- 沙尘暴 -->
-		<!-- <Row>
+		<Row>
 			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_DUST_STORM_GRADIENT</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_RANDOM_EVENT_NO_UNIT_DAMAGE</ModifierType>
 		</Row>
 		<Row>
 			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_DUST_STORM_HABOOB</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_RANDOM_EVENT_NO_UNIT_DAMAGE</ModifierType>
-		</Row> -->
+		</Row>
 		<!-- 龙卷风 -->
-		<!-- <Row>
+		<Row>
 			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_TORNADO_FAMILY</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_RANDOM_EVENT_NO_UNIT_DAMAGE</ModifierType>
 		</Row>
 		<Row>
 			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_TORNADO_OUTBREAK</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_RANDOM_EVENT_NO_UNIT_DAMAGE</ModifierType>
-		</Row> -->
+		</Row>
 		<!-- 台风 -->
 		<Row>
 			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_HURRICANE_CAT_4</ModifierId>
@@ -66,44 +37,10 @@
 			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_HURRICANE_CAT_5</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_RANDOM_EVENT_NO_UNIT_DAMAGE</ModifierType>
 		</Row>
-
     </Modifiers>
     <ModifierArguments>
-        <!-- 免疫乞力马扎罗山 -->
-        <!-- <Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_KILIMANJARO_GENTLE</ModifierId>
-			<Name>RandomEventType</Name>
-			<Value>RANDOM_EVENT_KILIMANJARO_GENTLE</Value>
-		</Row>
-        <Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_KILIMANJARO_CATASTROPHIC</ModifierId>
-			<Name>RandomEventType</Name>
-			<Value>RANDOM_EVENT_KILIMANJARO_CATASTROPHIC</Value>
-		</Row> -->
-		<!-- 维苏威火山 -->
-        <!-- <Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_VESUVIUS_MEGACOLOSSAL</ModifierId>
-			<Name>RandomEventType</Name>
-			<Value>RANDOM_EVENT_VESUVIUS_MEGACOLOSSAL</Value>
-		</Row> -->
-		<!-- 火山 -->
-		<!-- <Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_VOLCANO_GENTLE</ModifierId>
-			<Name>RandomEventType</Name>
-			<Value>RANDOM_EVENT_VOLCANO_GENTLE</Value>
-		</Row>
-		<Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_VOLCANO_CATASTROPHIC</ModifierId>
-			<Name>RandomEventType</Name>
-			<Value>RANDOM_EVENT_VOLCANO_CATASTROPHIC</Value>
-		</Row>
-		<Row>
-			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_VOLCANO_MEGACOLOSSAL</ModifierId>
-			<Name>RandomEventType</Name>
-			<Value>RANDOM_EVENT_VOLCANO_MEGACOLOSSAL</Value>
-		</Row> -->
 		<!-- 暴风雪 -->
-		<!-- <Row>
+		<Row>
 			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_BLIZZARD_SIGNIFICANT</ModifierId>
 			<Name>RandomEventType</Name>
 			<Value>RANDOM_EVENT_BLIZZARD_SIGNIFICANT</Value>
@@ -122,9 +59,9 @@
 			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_BLIZZARD_CRIPPLING</ModifierId>
 			<Name>NoDamage</Name>
 			<Value>true</Value>
-		</Row> -->
+		</Row>
 		<!-- 沙尘暴 -->
-		<!-- <Row>
+		<Row>
 			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_DUST_STORM_GRADIENT</ModifierId>
 			<Name>RandomEventType</Name>
 			<Value>RANDOM_EVENT_DUST_STORM_GRADIENT</Value>
@@ -143,9 +80,9 @@
 			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_DUST_STORM_HABOOB</ModifierId>
 			<Name>NoDamage</Name>
 			<Value>true</Value>
-		</Row> -->
+		</Row>
 		<!-- 龙卷风 -->
-		<!-- <Row>
+		<Row>
 			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_TORNADO_FAMILY</ModifierId>
 			<Name>RandomEventType</Name>
 			<Value>RANDOM_EVENT_TORNADO_FAMILY</Value>
@@ -164,7 +101,7 @@
 			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_TORNADO_OUTBREAK</ModifierId>
 			<Name>NoDamage</Name>
 			<Value>true</Value>
-		</Row> -->
+		</Row>
 		<!-- 台风 -->
 		<Row>
 			<ModifierId>WS_AB_RANDOM_EVENT_IMUNE_HURRICANE_CAT_4</ModifierId>

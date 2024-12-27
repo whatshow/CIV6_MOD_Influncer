@@ -7,10 +7,7 @@
 		</Row>
     </TraitModifiers>
     <Modifiers>
-		<Row>
-			<ModifierId>TRAIT_MILITANCY_MOVEMENT</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_MOVEMENT</ModifierType>
-		</Row>
+		
         <Row>
 			<ModifierId>TRAIT_CIVILENG_EXTRA_TECH</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY</ModifierType>
@@ -20,17 +17,9 @@
     </Modifiers>
     <ModifierArguments>
 		<!-- 穷兵黩武 -->
-		<Row>
-			<ModifierId>TRAIT_MILITANCY_MOVEMENT</ModifierId>
-			<Name>Amount</Name>
-			<Value>2</Value>
-		</Row>
-        <Row>
-			<ModifierId>TRAIT_CIVILENG_EXTRA_TECH</ModifierId>
-			<Name>TechType</Name>
-			<Value>TECH_STEAM_POWER</Value>
-		</Row>
+		
+        
 		
     </ModifierArguments>
-	所有单位+2 [ICON_Movement] 移动力，
+	
 </GameInfo>

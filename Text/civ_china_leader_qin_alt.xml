@@ -6,7 +6,7 @@
 			<Text>穷兵黩武</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_MILITANCY_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>占领城市可将其升级为军团或军队；对采石场、牧场、种植园和露营地发动掠夺时除 [ICON_FAITH] 信仰值外还将获得 [ICON_CULTURE] 文化值。战斗胜利后，可以俘获（非蛮族）敌人成工人，或坑杀敌人获得击杀单位 [ICON_Strength] 战斗力25%的 [ICON_Culture] 文化值、100%的 [ICON_Faith] 信仰值、50%的 [ICON_Gold] 金币和20点 [ICON_GreatGeneral] 大将军或 [ICON_GreatAdmiral] 海军统帅点数。对矿山发动掠夺时除 [ICON_GOLD] 金币外还将获得 [ICON_SCIENCE] 科技值。</Text>
+			<Text>每个奢饰品+1 所有单位+2 [ICON_Movement] 移动力，占领城市可将其升级为军团或军队；对采石场、牧场、种植园和露营地发动掠夺时除 [ICON_FAITH] 信仰值外还将获得 [ICON_CULTURE] 文化值。战斗胜利后，可以俘获（非蛮族）敌人成工人，或坑杀敌人获得击杀单位 [ICON_Strength] 战斗力25%的 [ICON_Culture] 文化值、100%的 [ICON_Faith] 信仰值、50%的 [ICON_Gold] 金币和20点 [ICON_GreatGeneral] 大将军或 [ICON_GreatAdmiral] 海军统帅点数。对矿山发动掠夺时除 [ICON_GOLD] 金币外还将获得 [ICON_SCIENCE] 科技值。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_FOOLISH_SLAVERY_NAME" Language="zh_Hans_CN">
 			<Text>愚民奴役</Text>

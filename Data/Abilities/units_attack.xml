@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameInfo>
+    <Modifiers>
+        <!-- 每个奢饰+1力 -->
+        <Row>
+            <ModifierId>WS_AB_UNITS_ATTACK_LUXURY_ADD_01</ModifierId>
+            <ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+        </Row>
+        <!-- 攻击不同信仰+5力 -->
+        <Row>
+			<ModifierId>WS_AB_UNITS_ATTACK_OTHER_RELIGION_ADD_05</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+        <!-- 宗教昄一一个圣城+3力 & 击杀文明或城邦单位传教 -->
+        <Row>
+			<ModifierId>WS_AB_UNITS_ATTACK_HOLY_CITIES_ADD_03</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+        <Row>
+			<ModifierId>WS_AB_UNITS_ATTACK_HOLY_CITIES_ADD_03_RELIGIOUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+    </Modifiers>
+    <ModifierArguments>
+        <!-- 每个奢饰+1力 -->
+        <Row>
+			<ModifierId>WS_AB_UNITS_ATTACK_LUXURY_ADD_01</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_MONTEZUMA_COMBAT_BONUS_PER_LUXURY</Value>
+		</Row>
+        <!-- 攻击不同信仰+5力 -->
+        <Row>
+			<ModifierId>WS_AB_UNITS_ATTACK_OTHER_RELIGION_ADD_05</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_PHILIP_II_COMBAT_BONUS_OTHER_RELIGION</Value>
+		</Row>
+        <!-- 宗教昄一一个圣城+3力 & 击杀文明或城邦单位传教 -->
+        <Row>
+			<ModifierId>WS_AB_UNITS_ATTACK_HOLY_CITIES_ADD_03</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_BYZANTIUM_COMBAT_UNITS</Value>
+		</Row>
+        <Row>
+			<ModifierId>WS_AB_UNITS_ATTACK_HOLY_CITIES_ADD_03_RELIGIOUS</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_BYZANTIUM_RELIGIOUS_UNITS</Value>
+		</Row>
+    </ModifierArguments>
+</GameInfo>

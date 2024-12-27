@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GameInfo>
+    <Modifiers>
+        <Row>
+			<ModifierId>WS_AB_UNITS_MOVEMENT_ADD_02</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_MOVEMENT</ModifierType>
+		</Row>
+    </Modifiers>
+    <ModifierArguments>
+        <Row>
+			<ModifierId>WS_AB_UNITS_MOVEMENT_ADD_02</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+    </ModifierArguments>
+</GameInfo>
