@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameInfo>
+    <Modifiers>
+        <!-- 肖像加1生产力  -->
+        <Row>
+			<ModifierId>WS_AB_GREAT_WORK_PORTRAIT_PROD_ADD_01</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+		</Row>
+        <!-- 肖像加5金  -->
+        <Row>
+			<ModifierId>WS_AB_GREAT_WORK_PORTRAIT_GOLD_ADD_05</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+		</Row>
+    </Modifiers>
+    <ModifierArguments>
+        <!-- 肖像加1生产力  -->
+        <Row>
+			<ModifierId>WS_AB_GREAT_WORK_PORTRAIT_PROD_ADD_01</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_PORTRAIT</Value>
+		</Row>
+		<Row>
+			<ModifierId>WS_AB_GREAT_WORK_PORTRAIT_PROD_ADD_01</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>WS_AB_GREAT_WORK_PORTRAIT_PROD_ADD_01</ModifierId>
+			<Name>YieldChange</Name>
+			<Value>1</Value>
+		</Row>
+        <!-- 肖像加5金  -->
+        <Row>
+			<ModifierId>WS_AB_GREAT_WORK_PORTRAIT_GOLD_ADD_05</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_PORTRAIT</Value>
+		</Row>
+		<Row>
+			<ModifierId>WS_AB_GREAT_WORK_PORTRAIT_GOLD_ADD_05</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>WS_AB_GREAT_WORK_PORTRAIT_GOLD_ADD_05</ModifierId>
+			<Name>YieldChange</Name>
+			<Value>5</Value>
+		</Row>
+
+    </ModifierArguments>
+</GameInfo>

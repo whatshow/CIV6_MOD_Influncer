@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameInfo>
+    <Modifiers>
+        <!-- 征集城邦花费减少50% -->
+        <Row>
+			<ModifierId>WS_AB_CITY_STATE_LEVY_DISCOUNT_50</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_LEVY_DISCOUNT_PERCENT</ModifierType>
+		</Row>
+        <!-- 征集城邦增加一个使者 -->
+        <Row>
+			<ModifierId>WS_AB_CITY_STATE_LEVY_DISCOUNT_ENVOYS_ADD_01</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_ENVOYS_FROM_LEVIED_CITY_STATES</ModifierType>
+		</Row>
+    </Modifiers>
+    <ModifierArguments>
+        <!-- 征集城邦花费减少50% -->
+        <Row>
+			<ModifierId>WS_AB_CITY_STATE_LEVY_DISCOUNT_50</ModifierId>
+			<Name>Percent</Name>
+			<Value>50</Value>
+		</Row>
+        <Row>
+			<ModifierId>WS_AB_CITY_STATE_LEVY_DISCOUNT_ENVOYS_ADD_01</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+    </ModifierArguments>
+</GameInfo>

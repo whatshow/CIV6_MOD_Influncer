@@ -23,10 +23,20 @@
 		<UpdateDatabase id="WSInfluencerCore">
 			<File>Data/RequirementSets.xml</File>
 			<File>Data/requirements.xml</File>
+			<File>Data/Abilities/cities.xml</File>
+			<File>Data/Abilities/city_state.xml</File>
+			<File>Data/Abilities/greatwork_artifact.xml</File>
+			<File>Data/Abilities/greatwork_landscape.xml</File>
+			<File>Data/Abilities/greatwork_music.xml</File>
+			<File>Data/Abilities/greatwork_portrait.xml</File>
+			<File>Data/Abilities/greatwork_relic.xml</File>
+			<File>Data/Abilities/greatwork_religious.xml</File>
+			<File>Data/Abilities/greatwork_sculpture.xml</File>
+			<File>Data/Abilities/greatwork_writing.xml</File>
 			<File>Data/Abilities/units_attack.xml</File>
 			<File>Data/Abilities/units_kill_bonus.xml</File>
 			<File>Data/Abilities/units_movement.xml</File>
-			<File>Data/Abilities/cities.xml</File>
+			<File>Data/Abilities/units_purchase.xml</File>
 			<!-- <File>Data/Abilities/district_imune_random_event.xml</File> -->
 			<File>Data/Abilities/sci.xml</File>
 			<File>Data/Abilities/slots.xml</File>
@@ -50,10 +60,20 @@
 	<Files>
 		<File>Data/RequirementSets.xml</File>
 		<File>Data/requirements.xml</File>
+		<File>Data/Abilities/cities.xml</File>
+		<File>Data/Abilities/city_state.xml</File>
 		<File>Data/Abilities/units_attack.xml</File>
 		<File>Data/Abilities/units_kill_bonus.xml</File>
 		<File>Data/Abilities/units_movement.xml</File>
-		<File>Data/Abilities/cities.xml</File>
+		<File>Data/Abilities/units_purchase.xml</File>
+		<File>Data/Abilities/greatwork_artifact.xml</File>
+		<File>Data/Abilities/greatwork_landscape.xml</File>
+		<File>Data/Abilities/greatwork_music.xml</File>
+		<File>Data/Abilities/greatwork_portrait.xml</File>
+		<File>Data/Abilities/greatwork_relic.xml</File>
+		<File>Data/Abilities/greatwork_religious.xml</File>
+		<File>Data/Abilities/greatwork_sculpture.xml</File>
+		<File>Data/Abilities/greatwork_writing.xml</File>
 		<!-- <File>Data/Abilities/district_imune_random_event.xml</File> -->
 		<File>Data/Abilities/sci.xml</File>
 		<File>Data/Abilities/slots.xml</File>

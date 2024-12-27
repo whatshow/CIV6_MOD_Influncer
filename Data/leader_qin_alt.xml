@@ -109,10 +109,130 @@
 			<TraitType>TRAIT_FOOLISH_SLAVERY</TraitType>
 			<ModifierId>TRAIT_FOOLISH_SLAVERY_BUILDER_WONDER_PERCENT</ModifierId>
 		</Row>
+		<!-- 愚民奴役 - 信仰买兵 -->
+		<Row>
+			<TraitType>TRAIT_FOOLISH_SLAVERY</TraitType>
+			<ModifierId>WS_AB_UNIT_PURCHASE_FAITH_RECON</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_FOOLISH_SLAVERY</TraitType>
+			<ModifierId>WS_AB_UNIT_PURCHASE_FAITH_MELEE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_FOOLISH_SLAVERY</TraitType>
+			<ModifierId>WS_AB_UNIT_PURCHASE_FAITH_RANGED</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_FOOLISH_SLAVERY</TraitType>
+			<ModifierId>WS_AB_UNIT_PURCHASE_FAITH_ANTI_CAVALRY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_FOOLISH_SLAVERY</TraitType>
+			<ModifierId>WS_AB_UNIT_PURCHASE_FAITH_LIGHT_CAVALRY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_FOOLISH_SLAVERY</TraitType>
+			<ModifierId>WS_AB_UNIT_PURCHASE_FAITH_HEAVY_CAVALRY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_FOOLISH_SLAVERY</TraitType>
+			<ModifierId>WS_AB_UNIT_PURCHASE_FAITH_SIEGE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_FOOLISH_SLAVERY</TraitType>
+			<ModifierId>WS_AB_UNIT_PURCHASE_FAITH_NAVAL_MELEE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_FOOLISH_SLAVERY</TraitType>
+			<ModifierId>WS_AB_UNIT_PURCHASE_FAITH_NAVAL_RANGED</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_FOOLISH_SLAVERY</TraitType>
+			<ModifierId>WS_AB_UNIT_PURCHASE_FAITH_NAVAL_RAIDER</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_FOOLISH_SLAVERY</TraitType>
+			<ModifierId>WS_AB_UNIT_PURCHASE_FAITH_NAVAL_CARRIER</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_FOOLISH_SLAVERY</TraitType>
+			<ModifierId>WS_AB_UNIT_PURCHASE_FAITH_AIRCRAFT</ModifierId>
+		</Row>
 		<!-- 大兴土木 -->
 		<Row>
 			<TraitType>TRAIT_CIVILENG</TraitType>
 			<ModifierId>TRAIT_CIVILENG_EXTRA_PALACE_SLOTS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILENG</TraitType>
+			<ModifierId>WS_AB_GREAT_WORK_ARTIFACT_PROD_ADD_01</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILENG</TraitType>
+			<ModifierId>WS_AB_GREAT_WORK_LANDSCAPE_PROD_ADD_01</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILENG</TraitType>
+			<ModifierId>WS_AB_GREAT_WORK_MUSIC_PROD_ADD_01</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILENG</TraitType>
+			<ModifierId>WS_AB_GREAT_WORK_PORTRAIT_PROD_ADD_01</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILENG</TraitType>
+			<ModifierId>WS_AB_GREAT_WORK_RELIC_PROD_ADD_01</ModifierId>
+		</Row>
+		
+		<Row>
+			<TraitType>TRAIT_CIVILENG</TraitType>
+			<ModifierId>WS_AB_GREAT_WORK_RELIGIOUS_PROD_ADD_01</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILENG</TraitType>
+			<ModifierId>WS_AB_GREAT_WORK_SCULPTURE_PROD_ADD_01</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILENG</TraitType>
+			<ModifierId>WS_AB_GREAT_WORK_WRITING_PROD_ADD_01</ModifierId>
+		</Row>
+
+		<Row>
+			<TraitType>TRAIT_CIVILENG</TraitType>
+			<ModifierId>WS_AB_GREAT_WORK_ARTIFACT_GOLD_ADD_05</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILENG</TraitType>
+			<ModifierId>WS_AB_GREAT_WORK_LANDSCAPE_GOLD_ADD_05</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILENG</TraitType>
+			<ModifierId>WS_AB_GREAT_WORK_MUSIC_GOLD_ADD_05</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILENG</TraitType>
+			<ModifierId>WS_AB_GREAT_WORK_PORTRAIT_GOLD_ADD_05</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILENG</TraitType>
+			<ModifierId>WS_AB_GREAT_WORK_RELIC_GOLD_ADD_05</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILENG</TraitType>
+			<ModifierId>WS_AB_GREAT_WORK_RELIGIOUS_GOLD_ADD_05</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILENG</TraitType>
+			<ModifierId>WS_AB_GREAT_WORK_SCULPTURE_GOLD_ADD_05</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILENG</TraitType>
+			<ModifierId>WS_AB_GREAT_WORK_WRITING_GOLD_ADD_05</ModifierId>
+		</Row>
+
+		<Row>
+			<TraitType>TRAIT_CIVILENG</TraitType>
+			<ModifierId>WS_AB_SCI_GRANT_ASTROLOGY</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_CIVILENG</TraitType>
@@ -135,6 +255,15 @@
 			<ModifierId>TRAIT_CIVILENG_EXTRA_AREA</ModifierId>
 		</Row>
 		<!-- 霸权主义 -->
+		<!-- 霸权主义 —— 城邦-->
+		<Row>
+			<TraitType>TRAIT_HEGEMONISM</TraitType>
+			<ModifierId>WS_AB_CITY_STATE_LEVY_DISCOUNT_50</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_HEGEMONISM</TraitType>
+			<ModifierId>WS_AB_CITY_STATE_LEVY_DISCOUNT_ENVOYS_ADD_01</ModifierId>
+		</Row>
 		<Row>
 			<TraitType>TRAIT_HEGEMONISM</TraitType>
 			<ModifierId>TRAIT_HEGEMONISM_CITY_STATE_TOKEN_SAME_RELIGION</ModifierId>
