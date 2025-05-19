@@ -3,7 +3,7 @@
 	<Properties>
 		<Name>LOC_MOD_NAME</Name>
 		<Teaser>增强已有领袖和文明，添加更多文明和领袖。</Teaser>
-		<Description>秦始皇（大一统）获得额外能力：穷兵黩武、愚民奴役、大兴土木、霸权主义。</Description>
+		<Description>秦始皇（大一统）获得额外能力：穷兵黩武、愚民奴役、大兴土木、霸权主义。移除火山、风暴、核事故和陨石。</Description>
 		<Authors>Zike Wang</Authors>
 		<ShowInBrowser>AlwaysShow</ShowInBrowser>
 		<EnabledByDefault>1</EnabledByDefault>
@@ -12,11 +12,20 @@
 	</Properties>
 	<LocalizedText>
 		<Text id="LOC_MOD_NAME">
-			<en_US>[ICON_RESOURCE_URANIUM][COLOR_RED]The Influencers[ENDCOLOR]</en_US>
+			<en_US>[COLOR_RED]The Influencers[ENDCOLOR]</en_US>
 			<zh_Hans_CN>[COLOR_RED]风云人物包[ENDCOLOR]</zh_Hans_CN>
 		</Text>
 	</LocalizedText>
+	<ActionCriteria>
+		<Criteria id="Expansion2">
+			<GameCoreInUse>Expansion2</GameCoreInUse>
+		</Criteria>
+	</ActionCriteria>
 	<InGameActions>
+		<UpdateDatabase id="InGameData">
+			<Criteria>Expansion2</Criteria>
+			<File>DND.sql</File>
+		</UpdateDatabase>
 		<UpdateDatabase id="WSInfluencerLeaders">
 			<File>Data/leader_qin_alt.xml</File>
 		</UpdateDatabase>
@@ -47,6 +56,8 @@
       		<File>Text/civ_china_leader_qin_alt.xml</File>
     	</UpdateText>
 	</InGameActions>
+
+	
 	<!--
 	<FrontEndActions>
 		<UpdateDatabase id="Enhanced_China_ConfigData">
@@ -58,6 +69,7 @@
 	</FrontEndActions>
 	-->
 	<Files>
+		<File>Data/DND.sql</File>	
 		<File>Data/RequirementSets.xml</File>
 		<File>Data/requirements.xml</File>
 		<File>Data/Abilities/cities.xml</File>
